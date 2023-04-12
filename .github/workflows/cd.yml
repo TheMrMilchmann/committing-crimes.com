@@ -1,8 +1,8 @@
 name: Deploy
 on:
   push:
-    branch:
-      - master
+    branches:
+      - "master"
 
 
 jobs:
@@ -17,9 +17,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - runs: yarn install
+      - run: yarn install
 
-      - runs: yarn generate
+      - run: yarn generate
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
