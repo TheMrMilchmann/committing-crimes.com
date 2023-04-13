@@ -4,13 +4,8 @@ export default defineNuxtConfig({
         "@nuxt/content"
     ],
 
-    content: {
-        sources: {
-            content: {
-                driver: "fs",
-                prefix: "/articles",
-                base: "./content/articles"
-            }
-        }
+    typescript: {
+        strict: true,
+        typeCheck: true
     }
 })
