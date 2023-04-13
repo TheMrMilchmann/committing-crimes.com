@@ -4,14 +4,6 @@ export default defineNuxtConfig({
         "@nuxt/content"
     ],
 
-    nitro: {
-        routeRules: {
-            "/**": {
-                ssr: false,
-            }
-        }
-    },
-
     typescript: {
         strict: true,
         typeCheck: true
