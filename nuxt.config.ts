@@ -26,15 +26,6 @@ export default defineNuxtConfig({
         }
     },
 
-    routeRules: {
-        "**": {
-            prerender: true
-        },
-        "/articles/2023-04-12-hello-world": {
-            prerender: true
-        }
-    },
-
     typescript: {
         strict: true,
         typeCheck: true
