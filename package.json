@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "committing-crimes.com",
   "private": true,
   "scripts": {
     "build": "nuxi build",
