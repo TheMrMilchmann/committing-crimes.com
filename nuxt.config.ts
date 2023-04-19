@@ -18,6 +18,14 @@ export default defineNuxtConfig({
         "@nuxt/content"
     ],
 
+    nitro: {
+        prerender: {
+            routes: [
+                "/sitemap.xml"
+            ]
+        }
+    },
+
     routeRules: {
         "**": {
             prerender: true
