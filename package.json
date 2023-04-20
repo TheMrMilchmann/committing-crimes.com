@@ -10,7 +10,7 @@
     "postinstall": "nuxi prepare"
   },
   "devDependencies": {
-    "@nuxt/content": "^2.5.2",
+    "@nuxt/content": "^2.6.0",
     "@types/node": "^18.15.11",
     "@types/rss": "^0.0.30",
     "nuxt": "^3.4.2",
