@@ -1,5 +1,5 @@
 <template>
-    <ContentDoc :path="$route.params.slug ? `/articles/${$route.params.slug[0]}` : '/'">
+    <ContentDoc>
         <template #not-found>
             <h2>Blog slug ({{ $route.params.slug }}) not found</h2>
         </template>
