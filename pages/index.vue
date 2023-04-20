@@ -19,6 +19,10 @@ import type {QueryBuilderParams} from "@nuxt/content/dist/runtime/types"
 import {format, parseISO} from "date-fns"
 import { ref } from "vue"
 
+useHead({
+   title: "Committing Crimes"
+});
+
 const list = ref()
 
 const articlesQuery: QueryBuilderParams = {
