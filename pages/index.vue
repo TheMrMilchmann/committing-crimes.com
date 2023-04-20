@@ -23,6 +23,10 @@ useHead({
    title: "Committing Crimes"
 });
 
+definePageMeta({
+    documentDriven: false
+})
+
 const list = ref()
 
 const articlesQuery: QueryBuilderParams = {

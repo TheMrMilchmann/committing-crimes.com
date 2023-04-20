@@ -5,6 +5,7 @@ export default defineNuxtConfig({
     },
 
     content: {
+        documentDriven: true,
         sources: {
             content: {
                 driver: "fs",
