@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "@nuxt/content": "^2.6.0",
-    "@types/node": "^18.15.12",
+    "@types/node": "^18.15.13",
     "@types/rss": "^0.0.30",
     "nuxt": "^3.4.2",
     "rss": "^1.2.2",
