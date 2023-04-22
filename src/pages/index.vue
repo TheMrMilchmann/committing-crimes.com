@@ -5,7 +5,7 @@
 
     <ContentList :query="articlesQuery" v-slot="{ list }">
         <div v-for="article in list" :key="article._path">
-            {{ formatDateString(article.date) }}
+            {{ formatDateString(article.publishedAt) }}
 
             <NuxtLink :href="article._path">
                 {{ article.title }}
@@ -38,7 +38,7 @@ const list = ref()
 
 const articlesQuery: QueryBuilderParams = {
     path: "/articles",
-    sort: [{ date: -1 }]
+    sort: [{ publishedAt: -1 }]
 };
 
 function formatDateString(date: string): string {
