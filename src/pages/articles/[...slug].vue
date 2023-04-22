@@ -24,7 +24,8 @@ useJsonld({
 })
 
 useServerSeoMeta({
-    ogType: "article"
+    ogType: "article",
+    ogImage: "https://committing-crimes.com/test.jpg" // TODO wire up article specific images
 })
 
 useServerHead({
