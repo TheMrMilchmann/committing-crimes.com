@@ -14,6 +14,7 @@
     "@types/node": "^18.15.13",
     "@types/rss": "^0.0.30",
     "nuxt": "^3.4.2",
+    "nuxt-jsonld": "^2.0.8",
     "rss": "^1.2.2",
     "sitemap": "^7.1.1",
     "typescript": "^5.0.4",

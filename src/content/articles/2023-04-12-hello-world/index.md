@@ -1,7 +1,7 @@
 ---
 title: "Welcome!"
 tags: []
-date: 2023-04-12
+publishedAt: 2023-04-12
 ---
 
 # Hello, World!
