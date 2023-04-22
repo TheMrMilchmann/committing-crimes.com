@@ -1,5 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+    srcDir: "src",
+
     app: {
         baseURL: "/"
     },
@@ -10,7 +12,7 @@ export default defineNuxtConfig({
             content: {
                 driver: "fs",
                 prefix: "/articles",
-                base: "./content/articles"
+                base: "src/content/articles"
             }
         }
     },
