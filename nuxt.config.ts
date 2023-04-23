@@ -6,6 +6,11 @@ export default defineNuxtConfig({
         baseURL: "/"
     },
 
+    colorMode: {
+        preference: "system",
+        fallback: "light"
+    },
+
     content: {
         documentDriven: true,
         highlight: {
@@ -32,6 +37,7 @@ export default defineNuxtConfig({
 
     modules: [
         "@nuxt/content",
+        "@nuxtjs/color-mode",
         "nuxt-jsonld"
     ],
 
