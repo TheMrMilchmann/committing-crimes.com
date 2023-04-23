@@ -8,6 +8,19 @@ export default defineNuxtConfig({
 
     content: {
         documentDriven: true,
+        highlight: {
+            preload: [
+                "c",
+                "java",
+                "json",
+                "kotlin",
+                "rust"
+            ],
+            theme: {
+                default: "github-light",
+                dark: "github-dark"
+            }
+        },
         sources: {
             content: {
                 driver: "fs",
