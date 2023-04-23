@@ -23,7 +23,7 @@ export default defineNuxtConfig({
             ],
             theme: {
                 default: "github-light",
-                dark: "github-dark"
+                "dark-mode": "github-dark"
             }
         },
         sources: {
