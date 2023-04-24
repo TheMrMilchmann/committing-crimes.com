@@ -1,17 +1,19 @@
+<!--
+  - Copyright (c) 2023 Leon Linhart
+  - All rights reserved.
+  -->
 <template>
-    <div>
-        <p>Hello World</p>
-    </div>
+    <NuxtLayout>
+        <ContentList :query="articlesQuery" v-slot="{ list }">
+            <div v-for="article in list" :key="article._path">
+                {{ formatDateString(article.publishedAt) }}
 
-    <ContentList :query="articlesQuery" v-slot="{ list }">
-        <div v-for="article in list" :key="article._path">
-            {{ formatDateString(article.publishedAt) }}
-
-            <NuxtLink :href="article._path">
-                {{ article.title }}
-            </NuxtLink>
-        </div>
-    </ContentList>
+                <NuxtLink :href="article._path">
+                    {{ article.title }}
+                </NuxtLink>
+            </div>
+        </ContentList>
+    </NuxtLayout>
 </template>
 
 <script setup lang="ts">
@@ -45,7 +47,3 @@ function formatDateString(date: string): string {
     return format(parseISO(date), "yyyy-MM-dd");
 }
 </script>
-
-<style scoped>
-
-</style>
