@@ -1,9 +1,17 @@
+<!--
+  - Copyright (c) 2023 Leon Linhart
+  - All rights reserved.
+  -->
 <template>
-    <ContentDoc>
-        <template #not-found>
-            <h2>Blog slug ({{ $route.params.slug }}) not found</h2>
-        </template>
-    </ContentDoc>
+    <NuxtLayout>
+        <LazyDefaultHeader />
+
+        <ContentDoc class="site-title">
+            <template #not-found>
+                <h2>Blog slug ({{ $route.params.slug }}) not found</h2>
+            </template>
+        </ContentDoc>
+    </NuxtLayout>
 </template>
 
 <script setup lang="ts">
