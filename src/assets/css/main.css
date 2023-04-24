@@ -6,6 +6,11 @@
 @import url("fonts/JetBrainsMono.css");
 @import url("dark-mode.css");
 
+:root {
+    --link-color: #953800;
+    --inline-link-color: #8250DF;
+}
+
 body {
     font-family: "Inter", Arial, sans-serif;
     font-size: 1.1em;
@@ -16,4 +21,37 @@ body {
 code, .monospaced {
     font-family: "JetBrains Mono", monospace;
     font-size: 0.9em;
+}
+
+a {
+    position: relative;
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+p > a {
+    color: var(--inline-link-color);
+}
+
+a::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--link-color);
+    transform: scaleX(0);
+
+    transition-duration: 280ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+p > a::before {
+    background-color: var(--inline-link-color);
+}
+
+a:hover::before {
+    transform: scaleX(1);
 }
