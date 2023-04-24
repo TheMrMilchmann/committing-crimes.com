@@ -5,8 +5,8 @@
 <template>
     <NuxtLayout>
         <ContentList :query="articlesQuery" v-slot="{ list }">
-            <div v-for="article in list" :key="article._path">
-                {{ formatDateString(article.publishedAt) }}
+            <div class="article-list-entry" v-for="article in list" :key="article._path">
+                <span class="monospaced">{{ formatDateString(article.publishedAt) }}</span>
 
                 <NuxtLink :href="article._path">
                     {{ article.title }}
@@ -47,3 +47,10 @@ function formatDateString(date: string): string {
     return format(parseISO(date), "yyyy-MM-dd");
 }
 </script>
+
+<style scoped>
+.article-list-entry {
+    display: flex;
+    gap: 8px;
+}
+</style>

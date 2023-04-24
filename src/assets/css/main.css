@@ -13,7 +13,7 @@ body {
     text-rendering: optimizeLegibility;
 }
 
-code {
+code, .monospaced {
     font-family: "JetBrains Mono", monospace;
     font-size: 0.9em;
 }
