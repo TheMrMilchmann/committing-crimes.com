@@ -8,11 +8,12 @@
 
 body {
     font-family: "Inter", Arial, sans-serif;
+    font-size: 1.1em;
     font-style: oblique 0deg;
     text-rendering: optimizeLegibility;
 }
 
 code {
     font-family: "JetBrains Mono", monospace;
-    font-size: 13px;
+    font-size: 0.9em;
 }
