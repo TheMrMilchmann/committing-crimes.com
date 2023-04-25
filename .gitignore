@@ -3,12 +3,11 @@
 !/.idea/copyright
 !/.idea/scopes
 
-node_modules
-*.log*
-.nuxt
-.nitro
-.cache
-.output
-.env
-dist
-.DS_Store
+/.nuxt
+/.nitro
+/.cache
+/.output
+/.env
+
+/dist
+/node_modules
