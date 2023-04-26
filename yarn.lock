@@ -1064,10 +1064,10 @@
   dependencies:
     "@volar/language-core" "1.4.1"
 
-"@volar/vue-language-core@1.5.2":
-  version "1.5.2"
-  resolved "https://registry.yarnpkg.com/@volar/vue-language-core/-/vue-language-core-1.5.2.tgz#4f9d23ef95ae24f9a36b22e4907a3e13922373e3"
-  integrity sha512-VfApPR5Q6CZD1xVyadUJATqtmoi8WmwSuDo4g/TeGUEivGCn/8ZCEIAYWO/me8ZEsUnfUq4o1ry6ABGj0u17zA==
+"@volar/vue-language-core@1.5.4":
+  version "1.5.4"
+  resolved "https://registry.yarnpkg.com/@volar/vue-language-core/-/vue-language-core-1.5.4.tgz#5ba7c705a28f644222f7c741ce6e271242379645"
+  integrity sha512-lTTGwqGDXbj8bFxHatII8sOu4rCUXf8ptcF4MUeMd+Yf40h0yq1BCRrQOVJpqlsJEvNQXNEsSGODrfeNFoJImg==
   dependencies:
     "@volar/language-core" "1.4.1"
     "@volar/source-map" "1.4.1"
@@ -1079,13 +1079,13 @@
     muggle-string "^0.2.2"
     vue-template-compiler "^2.7.14"
 
-"@volar/vue-typescript@1.5.2":
-  version "1.5.2"
-  resolved "https://registry.yarnpkg.com/@volar/vue-typescript/-/vue-typescript-1.5.2.tgz#a2d27e341e7881c2380c43e8d0f36e99097e44f8"
-  integrity sha512-nDe6CbP3VHtBSAQVl7UVJdrYDmjx4SkECHaysiGfh6S7KL4z1PSAq+PHRyxl+XLqvB356bE48HXBa1aMWfsGog==
+"@volar/vue-typescript@1.5.4":
+  version "1.5.4"
+  resolved "https://registry.yarnpkg.com/@volar/vue-typescript/-/vue-typescript-1.5.4.tgz#3f0bd0cbe22f394728708720dc449d0dccc1cb3a"
+  integrity sha512-frT7Pjxr5BvTe8qRGxo+6+f6eJd3e5JJ6GeRgEf37Jce2egUCnzHOYF60LdjaZpmv+L9IVBj83ubCH/fzf3sgA==
   dependencies:
     "@volar/typescript" "1.4.1"
-    "@volar/vue-language-core" "1.5.2"
+    "@volar/vue-language-core" "1.5.4"
 
 "@vue/babel-helper-vue-transform-on@^1.0.2":
   version "1.0.2"
@@ -5591,13 +5591,13 @@ vue-template-compiler@^2.7.14:
     de-indent "^1.0.2"
     he "^1.2.0"
 
-vue-tsc@^1.5.2:
-  version "1.5.2"
-  resolved "https://registry.yarnpkg.com/vue-tsc/-/vue-tsc-1.5.2.tgz#eefdb022c5e17d1f9e1a49f232605a68e3b8b485"
-  integrity sha512-qPD8Pi+wvjuzX1+njTdb4yzC4eT33Ptmp0wGgiIO8F0nAOZLdaWh9y9UyRrUonJy7UBwNRQ2DIVBJojrzf+KLA==
+vue-tsc@^1.5.4:
+  version "1.5.4"
+  resolved "https://registry.yarnpkg.com/vue-tsc/-/vue-tsc-1.5.4.tgz#6bd2ed4f61ed6ae2734deae1107bc212d504f645"
+  integrity sha512-QILho5NkbzQFixaFlYRXZaYaFutSY8Kd2nyNz1/B4Acrm0qlp2QkQmdHGZw9iU/HW16mDS6ncznSCORjS6Pbjw==
   dependencies:
-    "@volar/vue-language-core" "1.5.2"
-    "@volar/vue-typescript" "1.5.2"
+    "@volar/vue-language-core" "1.5.4"
+    "@volar/vue-typescript" "1.5.4"
     semver "^7.3.8"
 
 vue@^3.2.47:
