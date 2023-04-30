@@ -6,7 +6,7 @@
     <NuxtLayout>
         <LazyDefaultHeader />
 
-        <ContentDoc class="site-title">
+        <ContentDoc>
             <template #not-found>
                 <h2>Blog slug ({{ $route.params.slug }}) not found</h2>
             </template>
@@ -48,7 +48,3 @@ useServerHead({
 })
 
 </script>
-
-<style scoped>
-
-</style>
