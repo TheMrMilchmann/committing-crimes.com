@@ -14,7 +14,7 @@
     "@nuxtjs/color-mode": "^3.2.0",
     "@types/node": "^18.16.2",
     "@types/rss": "^0.0.30",
-    "nuxt": "^3.4.2",
+    "nuxt": "^3.4.3",
     "nuxt-jsonld": "^2.0.8",
     "rss": "^1.2.2",
     "sitemap": "^7.1.1",
