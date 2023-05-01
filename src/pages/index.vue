@@ -6,7 +6,7 @@
     <NuxtLayout>
         <LazyDefaultHeader />
 
-        <ContentList :query="articlesQuery" v-slot="{ list }">
+        <ContentList :query="articlesQuery" v-slot="{ list }: { list: ParsedContentMeta[] }">
             <div class="article-list-entry" v-for="article in list" :key="article._path">
                 <span class="monospaced">{{ formatDateString(article.publishedAt) }}</span>
 
@@ -21,7 +21,8 @@
 <script setup lang="ts">
 import type {QueryBuilderParams} from "@nuxt/content/dist/runtime/types"
 import {format, parseISO} from "date-fns"
-import { ref } from "vue"
+import {ref} from "vue"
+import {ParsedContentMeta} from "@nuxt/content/dist/runtime/types";
 
 useHead({
    title: "Committing Crimes"
@@ -38,7 +39,7 @@ useServerSeoMeta({
     ogUrl: "https://comitting-crimes.com"
 })
 
-const list = ref()
+const list = ref<ParsedContentMeta[]>()
 
 const articlesQuery: QueryBuilderParams = {
     path: "/articles",
