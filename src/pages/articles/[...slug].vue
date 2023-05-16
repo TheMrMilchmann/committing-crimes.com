@@ -8,7 +8,7 @@
 
         <ContentDoc>
             <template #not-found>
-                <h2>Blog slug ({{ $route.params.slug }}) not found</h2>
+                <h2>Not found</h2>
             </template>
         </ContentDoc>
     </NuxtLayout>
