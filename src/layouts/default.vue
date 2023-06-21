@@ -2,16 +2,14 @@
   - Copyright (c) 2023 Leon Linhart
   - All rights reserved.
   -->
-<script setup>
-import DefaultFooter from "~/components/layout/DefaultFooter.vue";
-</script>
-
 <template>
     <div class="layout-container">
         <div class="layout-column">
+            <LazyDefaultHeader />
+
             <slot />
 
-            <DefaultFooter class="footer" />
+            <LazyDefaultFooter class="footer" />
         </div>
     </div>
 </template>

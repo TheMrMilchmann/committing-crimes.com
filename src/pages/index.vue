@@ -4,8 +4,6 @@
   -->
 <template>
     <NuxtLayout>
-        <LazyDefaultHeader />
-
         <ContentList :query="articlesQuery" v-slot="{ list }: { list: ParsedContentMeta[] }">
             <div class="article-list-entry" v-for="article in list" :key="article._path">
                 <span class="monospaced">{{ formatDateString(article.publishedAt) }}</span>

@@ -4,8 +4,6 @@
   -->
 <template>
     <NuxtLayout>
-        <LazyDefaultHeader />
-
         <ContentDoc>
             <template #not-found>
                 <h2>Not found</h2>
@@ -46,5 +44,4 @@ useServerHead({
         { property: "og:profile:username", content: "TheMrMilchmann" },
     ]
 })
-
 </script>
