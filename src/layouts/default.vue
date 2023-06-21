@@ -5,11 +5,11 @@
 <template>
     <div class="layout-container">
         <div class="layout-column">
-            <LazyDefaultHeader />
+            <DefaultHeader />
 
             <slot />
 
-            <LazyDefaultFooter class="footer" />
+            <DefaultFooter class="footer" />
         </div>
     </div>
 </template>
