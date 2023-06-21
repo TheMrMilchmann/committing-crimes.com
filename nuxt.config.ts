@@ -11,6 +11,12 @@ export default defineNuxtConfig({
         fallback: "light"
     },
 
+    components: {
+        dirs: [
+            "~/components/layout"
+        ]
+    },
+
     content: {
         documentDriven: true,
         highlight: {
