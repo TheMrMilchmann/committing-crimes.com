@@ -3,7 +3,7 @@
   - All rights reserved.
   -->
 <template>
-  <div class="footer-container">
+  <div class="header-container">
       <NuxtLink href="/"><span class="site-title monospaced">Committing Crimes</span></NuxtLink>
 <!--      <div class="navigation-row">-->
 <!--          <NuxtLink href="/">Articles</NuxtLink>-->
@@ -23,7 +23,7 @@
     font-size: 2.5em;
 }
 
-.footer-container {
+.header-container {
     display: flex;
     align-items: center;
     flex-direction: column;
