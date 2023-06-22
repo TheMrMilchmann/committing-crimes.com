@@ -24,6 +24,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
 .layout-column {
