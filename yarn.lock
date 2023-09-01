@@ -611,20 +611,20 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@nuxt/content@^2.8.1":
-  version "2.8.1"
-  resolved "https://registry.yarnpkg.com/@nuxt/content/-/content-2.8.1.tgz#28009ecb80c0adb66bf21bdfeaebbc1c805a1443"
-  integrity sha512-uFhZXuP/5MVkK8rhj/1QPQKasW1ThyjE9JfLwTF0QEH/KJWgDg1FssKhGY7aCidR3ycUI+V3zHd407uSrdoCFw==
+"@nuxt/content@^2.8.2":
+  version "2.8.2"
+  resolved "https://registry.yarnpkg.com/@nuxt/content/-/content-2.8.2.tgz#ceabb2cb9643aef23b8a1fb4640b317b0509b528"
+  integrity sha512-fi5/axuYNGccJ/dXyaf5C/WqgEd5wSijpGHZ9O+pH7754S2NeKyx8fUFGfXsLN9VyJP+Mx8EUihfWKJm09SCRA==
   dependencies:
     "@nuxt/kit" "^3.7.0"
-    "@nuxtjs/mdc" "^0.1.3"
+    "@nuxtjs/mdc" "^0.1.6"
     "@vueuse/head" "^1.3.1"
     consola "^3.2.3"
     defu "^6.1.2"
     destr "^2.0.1"
     json5 "^2.2.3"
     knitwork "^1.0.0"
-    listhen "^1.4.3"
+    listhen "^1.4.4"
     mdurl "^1.0.1"
     micromark "^4.0.0"
     micromark-util-sanitize-uri "^2.0.0"
@@ -764,7 +764,7 @@
     lodash.template "^4.5.0"
     pathe "^1.1.1"
 
-"@nuxtjs/mdc@^0.1.3":
+"@nuxtjs/mdc@^0.1.6":
   version "0.1.6"
   resolved "https://registry.yarnpkg.com/@nuxtjs/mdc/-/mdc-0.1.6.tgz#89bad957973bd6b28a6feb7867b80f262ce0b09c"
   integrity sha512-zJuq5KwU3d1Dlh1sudnpVtIFoap09ZrvO9IAM1iP4tipzSRkgHFbCOTMEmK17Rx7KSdmvBbFP+/4MBaJdj1NqQ==
@@ -3117,7 +3117,7 @@ lilconfig@^2.1.0:
   resolved "https://registry.yarnpkg.com/lilconfig/-/lilconfig-2.1.0.tgz#78e23ac89ebb7e1bfbf25b18043de756548e7f52"
   integrity sha512-utWOt/GHzuUxnLKxB6dk81RoOeoNeHgbrXiuGk4yyF5qlRz+iIVWu56E2fqGHFrXz0QNUhLB/8nKqvRH66JKGQ==
 
-listhen@^1.2.2, listhen@^1.4.2, listhen@^1.4.3:
+listhen@^1.2.2, listhen@^1.4.2, listhen@^1.4.4:
   version "1.4.4"
   resolved "https://registry.yarnpkg.com/listhen/-/listhen-1.4.4.tgz#a42768360b15497466ac9e377d44c500d2765f10"
   integrity sha512-xoZWbfziou7xPWj9nlFXeroFTJZVIyJ6wKrLea2jxvWgMkcz/vLMoZACYHLRmcLGi5hZkcDF48tmkmv1Y6Y42Q==
