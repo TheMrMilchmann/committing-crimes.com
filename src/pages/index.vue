@@ -4,8 +4,8 @@
   -->
 <template>
     <NuxtLayout>
-        <ContentList :query="articlesQuery" v-slot="{ list }: { list: ParsedContentMeta[] }">
-            <div class="article-list-entry" v-for="article in list" :key="article._path">
+        <ContentList :query="articlesQuery" v-slot="{ data }: { data: ParsedContentMeta[] }">
+            <div class="article-list-entry" v-for="article in data" :key="article._path">
                 <span class="monospaced">{{ formatDateString(article.publishedAt) }}</span>
 
                 <NuxtLink :href="article._path">
