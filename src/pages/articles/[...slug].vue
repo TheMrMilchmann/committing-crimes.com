@@ -13,7 +13,7 @@
 </template>
 
 <script setup lang="ts">
-const { page } = useContent()
+const { page } = useContent();
 
 useJsonld({
     "@context": "https://schema.org",
@@ -27,12 +27,12 @@ useJsonld({
         name: "Leon Linhart",
         url: "https://github.com/TheMrMilchmann"
     }
-})
+});
 
 useServerSeoMeta({
     ogType: "article",
     ogImage: "https://committing-crimes.com/test.jpg" // TODO wire up article specific images
-})
+});
 
 useServerHead({
     meta: [
@@ -43,5 +43,5 @@ useServerHead({
         { property: "og:profile:last_name", content: "Linhart" },
         { property: "og:profile:username", content: "TheMrMilchmann" },
     ]
-})
+});
 </script>

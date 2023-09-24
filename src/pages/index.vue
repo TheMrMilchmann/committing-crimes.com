@@ -17,9 +17,8 @@
 </template>
 
 <script setup lang="ts">
-import type {QueryBuilderParams} from "@nuxt/content/dist/runtime/types"
-import {format, parseISO} from "date-fns"
-import {ref} from "vue"
+import type {QueryBuilderParams} from "@nuxt/content/dist/runtime/types";
+import {format, parseISO} from "date-fns";
 import {ParsedContentMeta} from "@nuxt/content/dist/runtime/types";
 
 useHead({
@@ -28,16 +27,14 @@ useHead({
 
 definePageMeta({
     documentDriven: false
-})
+});
 
 useServerSeoMeta({
     ogTitle: "Committing Crimes",
     ogType: "website",
     ogImage: "https://www.committing-crimes.com/test.jpg",
     ogUrl: "https://comitting-crimes.com"
-})
-
-const list = ref<ParsedContentMeta[]>()
+});
 
 const articlesQuery: QueryBuilderParams = {
     path: "/articles",
