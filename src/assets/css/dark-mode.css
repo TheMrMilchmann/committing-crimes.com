@@ -1,6 +1,8 @@
 .dark-mode body {
-    --inline-link-color: #D2A8FF;
+    --highlight-color: #FFA657;
+
     --link-color: #FFA657;
+    --inline-link-color: #D2A8FF;
 
     background-color: #121212;
     color: #F0F0F4;
