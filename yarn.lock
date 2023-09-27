@@ -611,10 +611,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@nuxt/content@^2.8.3":
-  version "2.8.3"
-  resolved "https://registry.yarnpkg.com/@nuxt/content/-/content-2.8.3.tgz#1525732e62a57c07f532576d32d3942315ecced8"
-  integrity sha512-JhgG/v6jyBhU3PFb61pMwQ2Hi9X3ViDWFAN8fLL/SAOwSWOw07/uOPD+jxFZwgOpNKAF1UkcwsuVUxy/FEHGsw==
+"@nuxt/content@^2.8.4":
+  version "2.8.4"
+  resolved "https://registry.yarnpkg.com/@nuxt/content/-/content-2.8.4.tgz#d1555acc28f48d93b7f72654f3ef1011aac0ce55"
+  integrity sha512-daKEHldAkbgxR42UHdi4CUVYemr6Rm2H1uN/ucFh0dziqfYxf9uLbSt6JxW0y+IdOoUt1G674sKpgEicQOMvDg==
   dependencies:
     "@nuxt/kit" "^3.7.4"
     "@nuxtjs/mdc" "^0.2.0"
