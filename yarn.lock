@@ -1095,10 +1095,10 @@
   resolved "https://registry.yarnpkg.com/@types/resolve/-/resolve-1.20.2.tgz#97d26e00cd4a0423b4af620abecf3e6f442b7975"
   integrity sha512-60BCwRFOZCQhDncwQdxxeOEEkbc5dIMccYLwbxsS4TUNeVECQ/pBJ0j09mrHOl/JJvpRPGwO9SvE4nR2Nb/a4Q==
 
-"@types/rss@^0.0.30":
-  version "0.0.30"
-  resolved "https://registry.yarnpkg.com/@types/rss/-/rss-0.0.30.tgz#0bee0c2e8bcac4374ce7a760c1f21a532f58c50e"
-  integrity sha512-RnWs98qajbcAZqie6EWYraJ2N+1Q1Wy9KN7HcVPJ//sYJGVjLjvkChZdeQPwf88xAcNUCcLXt6Zz3kiid7s/yw==
+"@types/rss@^0.0.31":
+  version "0.0.31"
+  resolved "https://registry.yarnpkg.com/@types/rss/-/rss-0.0.31.tgz#2416c71f1797c9b91c7fd52d0f22a57a88a4802d"
+  integrity sha512-iW6iqXCU1+t61uMkwIQQ4/TOq4QelIo9SfRJ717niStG5Z09B0pWhHkKujo2a0jsjHlga3yhGiemukLPYdl6iQ==
 
 "@types/sax@^1.2.1":
   version "1.2.5"
