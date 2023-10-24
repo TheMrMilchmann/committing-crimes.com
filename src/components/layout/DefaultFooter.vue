@@ -5,11 +5,11 @@
 <template>
     <div class="footer-container">
         <div class="footer-icon-row">
-            <a href="https://github.com/TheMrMilchmann" class="icon icon-github" />
-            <a href="https://www.linkedin.com/in/leon-linhart/" class="icon icon-linkedin" />
-            <a href="https://mastodon.social/@themrmilchmann" class="icon icon-mastodon" />
-            <a href="https://twitch.tv/themrmilchmann" class="icon icon-twitch" />
-            <a href="https://www.youtube.com/@TheMrMilchmann" class="icon icon-youtube" />
+            <IconButton href="https://github.com/TheMrMilchmann" class="icon-github" />
+            <IconButton href="https://www.linkedin.com/in/leon-linhart/" class="icon-linkedin" />
+            <IconButton href="https://mastodon.social/@themrmilchmann" class="icon-mastodon" />
+            <IconButton href="https://twitch.tv/themrmilchmann" class="icon-twitch" />
+            <IconButton href="https://www.youtube.com/@TheMrMilchmann" class="icon-youtube" />
         </div>
     </div>
 </template>
@@ -25,37 +25,6 @@
     display: flex;
     flex-direction: row;
     gap: 12px;
-}
-
-.icon {
-    width: 40px;
-    height: 40px;
-    background-image: url("@/assets/icons/linkedin.svg");
-    background-size: contain;
-    filter: invert(100%) brightness(50%);
-
-    text-decoration: none;
-
-    transition-duration: 280ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.icon:active {
-    text-decoration: none;
-}
-
-.icon:hover {
-    filter: invert(100%) brightness(0%);
-
-    text-decoration: none;
-}
-
-.icon:visited {
-    text-decoration: none;
-}
-
-.dark-mode .icon:hover {
-    filter: invert(100%) brightness(100%);
 }
 
 .icon-github {

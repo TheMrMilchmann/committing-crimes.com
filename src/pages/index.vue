@@ -8,9 +8,9 @@
             <div class="article-list-entry" v-for="article in list" :key="article._path">
                 <span class="monospaced">{{ formatDateString(article.publishedAt) }}</span>
 
-                <NuxtLink :href="article._path">
+                <CCLink :href="article._path">
                     {{ article.title }}
-                </NuxtLink>
+                </CCLink>
             </div>
         </ContentList>
     </NuxtLayout>
