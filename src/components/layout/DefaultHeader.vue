@@ -4,7 +4,7 @@
   -->
 <template>
   <div class="header-container">
-      <NuxtLink href="/"><span class="site-title monospaced">Committing Crimes</span></NuxtLink>
+      <CCLink href="/"><span class="site-title monospaced">Committing Crimes</span></CCLink>
 <!--      <div class="navigation-row">-->
 <!--          <NuxtLink href="/">Articles</NuxtLink>-->
 <!--      </div>-->
