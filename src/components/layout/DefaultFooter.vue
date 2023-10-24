@@ -34,12 +34,24 @@
     background-size: contain;
     filter: invert(100%) brightness(50%);
 
+    text-decoration: none;
+
     transition-duration: 280ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.icon:active {
+    text-decoration: none;
+}
+
 .icon:hover {
     filter: invert(100%) brightness(0%);
+
+    text-decoration: none;
+}
+
+.icon:visited {
+    text-decoration: none;
 }
 
 .dark-mode .icon:hover {
