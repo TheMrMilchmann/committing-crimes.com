@@ -17,9 +17,8 @@
 </template>
 
 <script setup lang="ts">
-import type {QueryBuilderParams} from "@nuxt/content/dist/runtime/types";
+import type {ParsedContentMeta, QueryBuilderParams} from "@nuxt/content/dist/runtime/types";
 import {format, parseISO} from "date-fns";
-import {ParsedContentMeta} from "@nuxt/content/dist/runtime/types";
 
 useHead({
    title: "Committing Crimes"
