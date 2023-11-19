@@ -20,6 +20,7 @@ export default defineNuxtConfig({
     },
 
     content: {
+        contentHead: false,
         documentDriven: true,
         highlight: {
             preload: [

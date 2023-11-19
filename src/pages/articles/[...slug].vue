@@ -15,6 +15,8 @@
 <script setup lang="ts">
 const { page } = useContent();
 
+useContentHead(page);
+
 useJsonld({
     "@context": "https://schema.org",
     "@type": "NewsArticle",
