@@ -21,6 +21,7 @@
 
 .site-title {
     font-size: 2.5em;
+    user-select: none;
 }
 
 .header-container {
