@@ -25,14 +25,22 @@ definePageMeta({
 });
 
 useHead({
-    title: "Committing Crimes"
+    title: "Committing Crimes",
+    meta: [
+        { property: "twitter:domain", content: "committing-crimes.com" },
+        { property: "twitter:url", content: "https://committing-crimes.com" },
+    ]
 });
 
 useServerSeoMeta({
     ogTitle: "Committing Crimes",
     ogType: "website",
-    ogImage: "https://www.committing-crimes.com/test.jpg",
-    ogUrl: "https://comitting-crimes.com"
+    ogImage: "https://committing-crimes.com/test.jpg",
+    ogUrl: "https://comitting-crimes.com",
+
+    twitterCard: "summary_large_image",
+    twitterTitle: "Committing Crimes",
+    twitterImage: "https://committing-crimes.com/test.jpg"
 });
 
 const articlesQuery: QueryBuilderParams = {
