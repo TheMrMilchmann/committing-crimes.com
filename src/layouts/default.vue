@@ -19,7 +19,6 @@ useHead({
     title: "Committing Crimes"
 });
 
-
 useServerSeoMeta({
     ogTitle: "Committing Crimes",
     ogType: "website",

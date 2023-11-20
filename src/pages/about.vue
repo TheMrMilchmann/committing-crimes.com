@@ -44,10 +44,6 @@
 </template>
 
 <script setup lang="ts">
-definePageMeta({
-    documentDriven: false
-});
-
 const age = computed(() => {
     const birthday = new Date("1998-11-04");
     const now = new Date();

@@ -20,6 +20,10 @@
 import type {ParsedContentMeta, QueryBuilderParams} from "@nuxt/content/dist/runtime/types";
 import {format, parseISO} from "date-fns";
 
+definePageMeta({
+    documentDriven: false
+});
+
 const articlesQuery: QueryBuilderParams = {
     path: "/articles",
     sort: [{ publishedAt: -1 }]
