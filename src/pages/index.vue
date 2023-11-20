@@ -24,6 +24,17 @@ definePageMeta({
     documentDriven: false
 });
 
+useHead({
+    title: "Committing Crimes"
+});
+
+useServerSeoMeta({
+    ogTitle: "Committing Crimes",
+    ogType: "website",
+    ogImage: "https://www.committing-crimes.com/test.jpg",
+    ogUrl: "https://comitting-crimes.com"
+});
+
 const articlesQuery: QueryBuilderParams = {
     path: "/articles",
     sort: [{ publishedAt: -1 }]
