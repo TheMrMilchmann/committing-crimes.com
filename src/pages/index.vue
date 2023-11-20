@@ -20,21 +20,6 @@
 import type {ParsedContentMeta, QueryBuilderParams} from "@nuxt/content/dist/runtime/types";
 import {format, parseISO} from "date-fns";
 
-useHead({
-   title: "Committing Crimes"
-});
-
-definePageMeta({
-    documentDriven: false
-});
-
-useServerSeoMeta({
-    ogTitle: "Committing Crimes",
-    ogType: "website",
-    ogImage: "https://www.committing-crimes.com/test.jpg",
-    ogUrl: "https://comitting-crimes.com"
-});
-
 const articlesQuery: QueryBuilderParams = {
     path: "/articles",
     sort: [{ publishedAt: -1 }]

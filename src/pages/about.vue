@@ -59,6 +59,15 @@ const age = computed(() => {
 
     return age;
 });
+
+useServerSeoMeta({
+    ogTitle: "About Leon Linhart",
+    ogDescription: `I'm Leon Linhart, a ${age.value}-year-old software developer from Germany.`,
+    ogType: "article",
+    ogImage: "https://www.committing-crimes.com/me.jpg",
+    ogUrl: "https://comitting-crimes.com/about",
+    ogSiteName: "Committing Crimes"
+});
 </script>
 
 <style scoped>
