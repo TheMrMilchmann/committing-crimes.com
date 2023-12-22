@@ -11,6 +11,13 @@ updates:
       - "a:chore"
       - "in:build"
       - "in:dependencies"
+    groups:
+      "@actions/artifacts":
+        patterns:
+          - "actions/deploy-pages"
+          - "actions/download-artifact"
+          - "actions/upload-artifact"
+          - "actions/upload-pages-artifact"
 
   - package-ecosystem: "npm"
     directory: "/"
