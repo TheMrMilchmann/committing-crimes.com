@@ -4,6 +4,6 @@
 ## License
 
 ```
-Copyright (c) 2023 Leon Linhart
+Copyright (c) 2023-2024 Leon Linhart
 All rights reserved.
 ```

@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2023-2024 Leon Linhart
+ * All rights reserved.
+ */
 import { serverQueryContent } from "#content/server"
 import { SitemapStream, streamToPromise } from "sitemap"
 
