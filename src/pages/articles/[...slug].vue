@@ -3,13 +3,15 @@
   - All rights reserved.
   -->
 <template>
-    <NuxtLayout>
-        <ContentDoc>
-            <template #not-found>
-                <h2>Not found</h2>
-            </template>
-        </ContentDoc>
-    </NuxtLayout>
+    <div>
+        <NuxtLayout>
+            <ContentDoc>
+                <template #not-found>
+                    <h2>Not found</h2>
+                </template>
+            </ContentDoc>
+        </NuxtLayout>
+    </div>
 </template>
 
 <script setup lang="ts">
