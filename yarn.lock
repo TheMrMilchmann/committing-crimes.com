@@ -626,22 +626,22 @@
     read-package-json-fast "^3.0.0"
     which "^4.0.0"
 
-"@nuxt/content@^2.10.0":
-  version "2.10.0"
-  resolved "https://registry.yarnpkg.com/@nuxt/content/-/content-2.10.0.tgz#352a0be2ea472964c8791bf89a4c9026df5188e5"
-  integrity sha512-HZ+1RJJc2SZc/FPYvbsME7b8++a2uf6g9JlMm+qUMDjnCWJaF38pbrsmYq2b9whXx/3WjpBmCRkWCJy6bjSP+g==
+"@nuxt/content@^2.11.0":
+  version "2.11.0"
+  resolved "https://registry.yarnpkg.com/@nuxt/content/-/content-2.11.0.tgz#17f527427f8689d4c27423320b66fae358159983"
+  integrity sha512-bHk4Vs+9k94z9WDdQcjTKWeXEkHiRsatTPx/914okegKaWz3yntt3x6NUPv6Ch3zI5JJZvepqbVPoWxuySFmmQ==
   dependencies:
-    "@nuxt/kit" "^3.8.2"
-    "@nuxtjs/mdc" "^0.3.0"
-    "@vueuse/core" "^10.7.0"
+    "@nuxt/kit" "^3.9.3"
+    "@nuxtjs/mdc" "^0.3.2"
+    "@vueuse/core" "^10.7.2"
     "@vueuse/head" "^2.0.0"
-    "@vueuse/nuxt" "^10.7.0"
+    "@vueuse/nuxt" "^10.7.2"
     consola "^3.2.3"
-    defu "^6.1.3"
+    defu "^6.1.4"
     destr "^2.0.2"
     json5 "^2.2.3"
     knitwork "^1.0.0"
-    listhen "^1.5.5"
+    listhen "^1.5.6"
     mdast-util-to-string "^4.0.0"
     mdurl "^2.0.0"
     micromark "^4.0.0"
@@ -649,15 +649,15 @@
     micromark-util-types "^2.0.0"
     minisearch "^6.3.0"
     ohash "^1.1.3"
-    pathe "^1.1.1"
-    scule "^1.1.1"
-    shiki-es "^0.14.0"
+    pathe "^1.1.2"
+    scule "^1.2.0"
+    shikiji "^0.9.19"
     slugify "^1.6.6"
-    socket.io-client "^4.7.2"
+    socket.io-client "^4.7.4"
     ufo "^1.3.2"
     unist-util-stringify-position "^4.0.0"
     unstorage "^1.10.1"
-    ws "^8.15.1"
+    ws "^8.16.0"
 
 "@nuxt/devalue@^2.0.2":
   version "2.0.2"
@@ -846,10 +846,10 @@
     lodash.template "^4.5.0"
     pathe "^1.1.1"
 
-"@nuxtjs/mdc@^0.3.0":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/mdc/-/mdc-0.3.1.tgz#3b787e5b079e834529e7a81ed2a1a848a53da566"
-  integrity sha512-5uj6CjzwND58wuG1ZcDyPFzmafl6RNN1HpUF+yiITeIdBS5WpPmepY14n4zwBQpt2AnQWMtFtRKXeZzVmiKc0w==
+"@nuxtjs/mdc@^0.3.2":
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/mdc/-/mdc-0.3.2.tgz#26fe6056f5537e1d9b1c4dd1d0965c7be6cba20f"
+  integrity sha512-iSepiwfNCh5dgO3ETqSdBHWdendRuRIZ7OsgIpEQXX2J9ubHK5XvRsK3DSUOqZZ8PHbRZ3eSr/9ZF9+IeZ0GFw==
   dependencies:
     "@nuxt/kit" "^3.9.3"
     "@types/hast" "^3.0.3"
@@ -1542,7 +1542,7 @@
   resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.4.15.tgz#e7d2ea050c667480cb5e1a6df2ac13bcd03a8f30"
   integrity sha512-KzfPTxVaWfB+eGcGdbSf4CWdaXcGDqckoeXUh7SB3fZdEtzPCK2Vq9B/lRRL3yutax/LWITz+SwvgyOxz5V75g==
 
-"@vueuse/core@10.7.2", "@vueuse/core@^10.7.0":
+"@vueuse/core@10.7.2", "@vueuse/core@^10.7.2":
   version "10.7.2"
   resolved "https://registry.yarnpkg.com/@vueuse/core/-/core-10.7.2.tgz#78917803a29a0bca1803a6521fdf7ff873f6e72c"
   integrity sha512-AOyAL2rK0By62Hm+iqQn6Rbu8bfmbgaIMXcE3TSr7BdQ42wnSFlwIdPjInO62onYsEMK/yDMU8C6oGfDAtZ2qQ==
@@ -1567,7 +1567,7 @@
   resolved "https://registry.yarnpkg.com/@vueuse/metadata/-/metadata-10.7.2.tgz#ba0187ce138c287fd80301afc5b0d6a97e563633"
   integrity sha512-kCWPb4J2KGrwLtn1eJwaJD742u1k5h6v/St5wFe8Quih90+k2a0JP8BS4Zp34XUuJqS2AxFYMb1wjUL8HfhWsQ==
 
-"@vueuse/nuxt@^10.7.0":
+"@vueuse/nuxt@^10.7.2":
   version "10.7.2"
   resolved "https://registry.yarnpkg.com/@vueuse/nuxt/-/nuxt-10.7.2.tgz#20e74cfcbc28d80ca0d9eaaa85dc08b50995e85c"
   integrity sha512-yv2hY4AiRoSqg9ELNpN6gOkDWxGuLiKE/bEbuTAAuUBhS5OeEDf5aB/kY0e/V6ZXj5XiU4LX3nE8YV8c+UKfmQ==
@@ -3545,7 +3545,7 @@ lilconfig@^3.0.0:
   resolved "https://registry.yarnpkg.com/lilconfig/-/lilconfig-3.0.0.tgz#f8067feb033b5b74dab4602a5f5029420be749bc"
   integrity sha512-K2U4W2Ff5ibV7j7ydLr+zLAkIg5JJ4lPn1Ltsdt+Tz/IjQ8buJ55pZAxoP34lqIiwtF9iAvtLv3JGv7CAyAg+g==
 
-listhen@^1.5.5:
+listhen@^1.5.5, listhen@^1.5.6:
   version "1.5.6"
   resolved "https://registry.yarnpkg.com/listhen/-/listhen-1.5.6.tgz#8dc8cdccef225e39c69bcc6f6bd704447b499b51"
   integrity sha512-gTpEJhT5L85L0bFgmu+Boqu5rP4DwDtEb4Exq5gdQUxWRwx4jbzdInZkmyLONo5EwIcQB0k7ZpWlpCDPdL77EQ==
@@ -5620,11 +5620,6 @@ shell-quote@^1.8.1:
   resolved "https://registry.yarnpkg.com/shell-quote/-/shell-quote-1.8.1.tgz#6dbf4db75515ad5bac63b4f1894c3a154c766680"
   integrity sha512-6j1W9l1iAs/4xYBI1SYOVZyFcCis9b4KCLQ8fgAGG07QvzaRLVVRQvAy85yNmmZSjYjg4MWh4gNvlPujU/5LpA==
 
-shiki-es@^0.14.0:
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/shiki-es/-/shiki-es-0.14.0.tgz#64f7902ad47eda244840836f70f68f9d24aac6e6"
-  integrity sha512-e+/aueHx0YeIEut6RXC6K8gSf0PykwZiHD7q7AHtpTW8Kd8TpFUIWqTwhAnrGjOyOMyrwv+syr5WPagMpDpVYQ==
-
 shikiji-core@0.9.19:
   version "0.9.19"
   resolved "https://registry.yarnpkg.com/shikiji-core/-/shikiji-core-0.9.19.tgz#227975e998eb2a579cf83de30977762be3802507"
@@ -5731,7 +5726,7 @@ smob@^1.0.0:
   resolved "https://registry.yarnpkg.com/smob/-/smob-1.4.1.tgz#66270e7df6a7527664816c5b577a23f17ba6f5b5"
   integrity sha512-9LK+E7Hv5R9u4g4C3p+jjLstaLe11MDsL21UpYaCNmapvMkYhqCV4A/f/3gyH8QjMyh6l68q9xC85vihY9ahMQ==
 
-socket.io-client@^4.7.2:
+socket.io-client@^4.7.4:
   version "4.7.4"
   resolved "https://registry.yarnpkg.com/socket.io-client/-/socket.io-client-4.7.4.tgz#5f0e060ff34ac0a4b4c5abaaa88e0d1d928c64c8"
   integrity sha512-wh+OkeF0rAVCrABWQBaEjLfb7DVPotMbu0cgWgyR0v6eA4EoVnAwcIeIbcdTE3GT/H3kbdLl7OoH2+asoDRIIg==
@@ -6650,7 +6645,7 @@ wrappy@1:
   resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
   integrity sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==
 
-ws@^8.15.1, ws@^8.16.0:
+ws@^8.16.0:
   version "8.16.0"
   resolved "https://registry.yarnpkg.com/ws/-/ws-8.16.0.tgz#d1cd774f36fbc07165066a60e40323eab6446fd4"
   integrity sha512-HS0c//TP7Ina87TfiPUz1rQzMhHrl/SG2guqRcTOIUYD2q8uhUdNHZYJUaQ8aTGPzCh+c6oawMKW35nFl1dxyQ==
