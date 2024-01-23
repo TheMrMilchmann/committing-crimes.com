@@ -4,17 +4,15 @@
   -->
 <template>
     <div>
-        <NuxtLayout>
-            <ContentList :query="articlesQuery" v-slot="{ list }: { list: ParsedContentMeta[] }">
-                <div class="article-list-entry" v-for="article in list" :key="article._path">
-                    <span class="monospaced">{{ formatDateString(article.publishedAt) }}</span>
+        <ContentList :query="articlesQuery" v-slot="{ list }: { list: ParsedContentMeta[] }">
+            <div class="article-list-entry" v-for="article in list" :key="article._path">
+                <span class="monospaced">{{ formatDateString(article.publishedAt) }}</span>
 
-                    <CCLink :href="article._path">
-                        {{ article.title }}
-                    </CCLink>
-                </div>
-            </ContentList>
-        </NuxtLayout>
+                <CCLink :href="article._path">
+                    {{ article.title }}
+                </CCLink>
+            </div>
+        </ContentList>
     </div>
 </template>
 

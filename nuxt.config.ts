@@ -7,7 +7,8 @@ export default defineNuxtConfig({
     srcDir: "src",
 
     app: {
-        baseURL: "/"
+        baseURL: "/",
+        pageTransition: { name: "page", mode: "out-in" }
     },
 
     colorMode: {

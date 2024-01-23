@@ -4,13 +4,11 @@
   -->
 <template>
     <div>
-        <NuxtLayout>
-            <ContentDoc>
-                <template #not-found>
-                    <h2>Not found</h2>
-                </template>
-            </ContentDoc>
-        </NuxtLayout>
+        <ContentDoc>
+            <template #not-found>
+                <h2>Not found</h2>
+            </template>
+        </ContentDoc>
     </div>
 </template>
 
