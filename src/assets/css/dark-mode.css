@@ -11,3 +11,19 @@
     background-color: #121212;
     color: #F0F0F4;
 }
+
+@media (prefers-color-scheme: dark) {
+    body {
+        --highlight-color: #FFA657;
+
+        --link-color: #FFA657;
+        --inline-link-color: #D2A8FF;
+
+        background-color: #121212;
+        color: #F0F0F4;
+    }
+
+    html .shiki span {
+        color: var(--shiki-dark-mode) !important;
+    }
+}

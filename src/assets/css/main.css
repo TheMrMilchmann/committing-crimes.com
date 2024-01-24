@@ -6,7 +6,7 @@
 @import url("fonts/JetBrainsMono.css");
 @import url("dark-mode.css");
 
-:root {
+:root, .light-mode body {
     --highlight-color: #953800;
 
     --link-color: #953800;
