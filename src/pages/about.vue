@@ -18,13 +18,13 @@
             <p>
                 I started programming as a hobby back in school when I was obsessed with the idea of creating my own video game.
                 Since this was around the time Minecraft was extremely popular, little me chose to learn and use Java for his experiments.
-                To access low-level windowing and graphics APIs, I used the <CCLink href="https://lwjgl.org">Lightweight Java Game Library</CCLink>.
+                To access low-level windowing and graphics APIs, I used the <CCLink href="https://lwjgl.org" target="_blank">Lightweight Java Game Library</CCLink>.
                 Through working with LWJGL on essentially highly-performant code, I became interested in and learned a lot about the internals of the Java Virtual Machine.
             </p>
 
             <p>
                 Contributions to LWJGL were also a large factor for me to get into open-source development in 2017.
-                Since then, I have written and contributed to dozens of projects of all sizes, many of which you can find on <CCLink href="https://github.com/TheMrMilchmann">GitHub</CCLink>.
+                Since then, I have written and contributed to dozens of projects of all sizes, many of which you can find on <CCLink href="https://github.com/TheMrMilchmann" target="_blank">GitHub</CCLink>.
             </p>
 
             <p>
