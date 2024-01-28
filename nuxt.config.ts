@@ -8,7 +8,14 @@ export default defineNuxtConfig({
 
     app: {
         baseURL: "/",
-        pageTransition: { name: "page", mode: "out-in" }
+        pageTransition: { name: "page", mode: "out-in" },
+
+        head: {
+            link: [
+                { rel: "preload", href: "/assets/fonts/Inter.var.woff2", as: "font", type: "font/woff2", crossorigin: "anonymous" },
+                { rel: "preload", href: "/assets/fonts/JetBrainsMono-Regular.woff2", as: "font", type: "font/woff2", crossorigin: "anonymous" },
+            ]
+        }
     },
 
     colorMode: {
