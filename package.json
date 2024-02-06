@@ -11,7 +11,7 @@
     "test": "npx playwright test --browser=all"
   },
   "devDependencies": {
-    "@nuxt/content": "^2.11.0",
+    "@nuxt/content": "^2.12.0",
     "@nuxt/image": "^1.3.0",
     "@nuxtjs/color-mode": "^3.3.2",
     "@playwright/test": "^1.41.2",
