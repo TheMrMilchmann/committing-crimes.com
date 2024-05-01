@@ -11,6 +11,10 @@
 </template>
 
 <style>
+html {
+    scroll-behavior: smooth;
+}
+
 .page-enter-active,
 .page-leave-active {
     transition: opacity 120ms;
