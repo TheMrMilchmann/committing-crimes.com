@@ -39,7 +39,7 @@ p > .link {
     color: var(--inline-link-color);
 }
 
-.link:hover, .link:focus {
+.link:hover {
     background-position: 0 100%;
     background-size: 100% 2px;
     transition: background-size .12s, background-position .24s;
