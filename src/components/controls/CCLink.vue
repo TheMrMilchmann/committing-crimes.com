@@ -32,7 +32,7 @@ defineProps({
     background-position: 50% 100%;
     background-repeat: no-repeat;
     background-size: 0 2px;
-    transition: background-size .32s, background-position .16s;
+    transition: background-size .24s, background-position .12s;
 }
 
 p > .link {
@@ -42,6 +42,6 @@ p > .link {
 .link:hover, .link:focus {
     background-position: 0 100%;
     background-size: 100% 2px;
-    transition: background-size .16s, background-position .32s;
+    transition: background-size .12s, background-position .24s;
 }
 </style>
