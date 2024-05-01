@@ -27,32 +27,21 @@ defineProps({
     position: relative;
     color: var(--link-color);
     text-decoration: none;
+
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: 0 2px;
+    transition: background-size .32s, background-position .16s;
 }
 
 p > .link {
     color: var(--inline-link-color);
 }
 
-.link::before {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: var(--link-color);
-    transform: scaleX(0);
-
-    transition-duration: 280ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-p > .link::before {
-    background-color: var(--inline-link-color);
-}
-
-.link:hover::before {
-    transform: scaleX(1);
+.link:hover, .link:focus {
+    background-position: 0 100%;
+    background-size: 100% 2px;
+    transition: background-size .16s, background-position .32s;
 }
 </style>
