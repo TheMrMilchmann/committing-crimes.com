@@ -3,11 +3,5 @@
   - All rights reserved.
   -->
 <template>
-    <p class="paragraph"><slot /></p>
+    <Paragraph><slot /></Paragraph>
 </template>
-
-<style scoped>
-.paragraph {
-    line-height: 1.6em;
-}
-</style>
