@@ -11,8 +11,8 @@
 
             <p>Hello there! 👋</p>
             <Paragraph>
-                I'm <span class="alias">Leon Linhart</span>, a {{age}}-year-old software developer from Germany.
-                On the internet, I have been using the alias <span class="alias">TheMrMilchmann</span> since the early 2010s.
+                I'm <Highlight>Leon Linhart</Highlight>, a {{age}}-year-old software developer from Germany.
+                On the internet, I have been using the alias <Highlight>TheMrMilchmann</Highlight> since the early 2010s.
             </Paragraph>
 
             <Paragraph>
@@ -41,6 +41,8 @@
 </template>
 
 <script setup lang="ts">
+import Highlight from "~/components/controls/Highlight.vue";
+
 definePageMeta({
     documentDriven: false
 });
@@ -81,10 +83,6 @@ useServerSeoMeta({
 </script>
 
 <style scoped>
-.alias {
-    color: var(--link-color);
-}
-
 .page-title {
     color: var(--link-color);
 }
