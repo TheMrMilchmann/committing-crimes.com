@@ -12,5 +12,3 @@
     line-height: 1.6em;
 }
 </style>
-<script setup lang="ts">
-</script>
