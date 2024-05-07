@@ -14,7 +14,7 @@
     "@nuxt/content": "^2.12.1",
     "@nuxt/image": "^1.7.0",
     "@nuxtjs/color-mode": "^3.4.1",
-    "@playwright/test": "^1.43.1",
+    "@playwright/test": "^1.44.0",
     "@types/node": "^20.12.10",
     "@types/rss": "^0.0.32",
     "nuxt": "^3.11.2",
