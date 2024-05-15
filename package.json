@@ -22,7 +22,7 @@
     "rss": "^1.2.2",
     "sitemap": "^7.1.1",
     "typescript": "^5.4.5",
-    "vue-tsc": "^1.8.27"
+    "vue-tsc": "^2.0.18"
   },
   "dependencies": {
     "date-fns": "^3.6.0"
