@@ -33,7 +33,10 @@ export default defineNuxtConfig({
 
     content: {
         contentHead: false,
-        documentDriven: true,
+        documentDriven: {
+            // See https://github.com/dan-bowen/nuxt-blog-starter/issues/2
+            injectPage: false
+        },
         highlight: {
             preload: [
                 "c",
