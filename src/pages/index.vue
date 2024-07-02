@@ -17,7 +17,7 @@
 </template>
 
 <script setup lang="ts">
-import type {ParsedContentMeta, QueryBuilderParams} from "@nuxt/content/dist/runtime/types";
+import type {ParsedContentMeta, QueryBuilderParams} from "@nuxt/content";
 import {format, parseISO} from "date-fns";
 
 definePageMeta({
