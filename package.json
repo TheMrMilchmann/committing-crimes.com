@@ -13,7 +13,7 @@
   "devDependencies": {
     "@nuxt/content": "^2.13.2",
     "@nuxt/image": "^1.7.0",
-    "@nuxtjs/color-mode": "^3.4.2",
+    "@nuxtjs/color-mode": "^3.4.4",
     "@playwright/test": "^1.46.0",
     "@types/node": "^20.14.15",
     "@types/rss": "^0.0.32",
