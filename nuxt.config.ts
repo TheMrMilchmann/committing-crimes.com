@@ -23,6 +23,8 @@ export default defineNuxtConfig({
         fallback: "dark"
     },
 
+    compatibilityDate: "2024-07-18",
+
     components: {
         dirs: [
             "~/components/controls",
