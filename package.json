@@ -15,7 +15,7 @@
     "@nuxt/image": "^1.7.1",
     "@nuxtjs/color-mode": "^3.4.4",
     "@playwright/test": "^1.46.1",
-    "@types/node": "^20.16.1",
+    "@types/node": "^20.16.2",
     "@types/rss": "^0.0.32",
     "nuxt": "^3.13.0",
     "nuxt-jsonld": "^2.0.8",
