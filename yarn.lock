@@ -889,10 +889,10 @@
     which "^3.0.1"
     ws "^8.18.0"
 
-"@nuxt/image@^1.7.1":
-  version "1.7.1"
-  resolved "https://registry.yarnpkg.com/@nuxt/image/-/image-1.7.1.tgz#b9c13127af4dc3ae7318489a78783a319638d00f"
-  integrity sha512-vD3p9CmFO718sbBZCaizOvk3Uw/M9eE5cotWD9rlGoMOf3bUYnXuxP4mEwa/qgupoZ+X5MnasZoWbrj8y9nfKg==
+"@nuxt/image@^1.8.0":
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/@nuxt/image/-/image-1.8.0.tgz#e7270ca16841fd8a4da43d29bc08ad1bbc620c9a"
+  integrity sha512-GBbORch+ZfWJ0KB8PaXABsPjaiEXB4B4plcpAUVNCdzKZi2qQ4beRnEXfAbtAWPUPefj3rgCG7b9AqAe51Qlzw==
   dependencies:
     "@nuxt/kit" "^3.13.0"
     consola "^3.2.3"
