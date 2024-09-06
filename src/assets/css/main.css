@@ -30,3 +30,7 @@ sup {
     position: relative;
     top: -0.3em;
 }
+
+p sup::before {
+    content: "\00A0";
+}
