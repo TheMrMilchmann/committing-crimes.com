@@ -24,3 +24,9 @@ code, .monospaced {
     font-family: "JetBrains Mono", monospace;
     font-size: 0.9em;
 }
+
+sup {
+    vertical-align: top;
+    position: relative;
+    top: -0.3em;
+}
