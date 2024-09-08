@@ -19,8 +19,9 @@ useContentHead(page);
 
 useJsonld({
     "@context": "https://schema.org",
-    "@type": "NewsArticle",
+    "@type": "BlogPosting",
     headline: page.value.title,
+    abstract: page.value.description,
     datePublished: page.value["publishedAt"],
     dateModified: page.value["modifiedAt"],
     image: "https://committing-crimes.com/test.jpg", // TODO wire up article specific images
