@@ -28,6 +28,8 @@ defineProps({
     color: var(--link-color);
     text-decoration: none;
 
+    word-break: break-word;
+
     background-image: linear-gradient(currentColor, currentColor);
     background-position: 50% 100%;
     background-repeat: no-repeat;
