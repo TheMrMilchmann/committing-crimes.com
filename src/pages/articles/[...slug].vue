@@ -39,9 +39,9 @@ useServerSeoMeta({
 
 useServerHead({
     meta: [
-        { property: "og:article:published_time", content: page.value["publishedAt"] },
-        { property: "og:article:modified_time", content: page.value["modifiedAt"] ?? page.value["publishedAt"] },
-        { property: "og:article:author", content: "" },
+        // { property: "og:article:published_time", content: page.value["publishedAt"] },
+        // { property: "og:article:modified_time", content: page.value["modifiedAt"] ?? page.value["publishedAt"] },
+        // { property: "og:article:author", content: "" },
         { property: "og:profile:first_name", content: "Leon" },
         { property: "og:profile:last_name", content: "Linhart" },
         { property: "og:profile:username", content: "TheMrMilchmann" },
