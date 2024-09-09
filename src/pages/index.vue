@@ -35,12 +35,13 @@ useHead({
 useServerSeoMeta({
     ogTitle: "Committing Crimes",
     ogType: "website",
-    ogImage: "https://committing-crimes.com/test.jpg",
+    ogSiteName: "Committing Crimes",
+    ogImage: "https://committing-crimes.com/me.jpg",
     ogUrl: "https://comitting-crimes.com",
 
     twitterCard: "summary_large_image",
     twitterTitle: "Committing Crimes",
-    twitterImage: "https://committing-crimes.com/test.jpg"
+    twitterImage: "https://committing-crimes.com/me.jpg"
 });
 
 const articlesQuery: QueryBuilderParams = {
