@@ -6,7 +6,10 @@
     <div>
         <article>
             <aside role="region" style="float: right">
-                <LazyNuxtImg class="project-card-wrapper" src="/me.jpg" width="256" alt="A picture of Leon Linhart sitting on an improvised throne built out of beer crates."/>
+                <div style="display: flex; align-items: center; justify-content: center">
+                    <LazyNuxtImg class="shadow" src="/me.jpg" width="272" />
+                    <LazyNuxtImg class="project-card-wrapper" src="/me.jpg" width="256" alt="A portrait of Leon Linhart standing on the Times Square." />
+                </div>
             </aside>
 
             <p>Hello there! 👋</p>
@@ -92,12 +95,22 @@ useServerSeoMeta({
     border-radius: 8px;
 
     display: flex;
+    position: absolute;
 
     margin-left: 24px;
     margin-right: 24px;
+}
 
+.light-mode .project-card-wrapper {
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23), -0px -0px 128px 10px rgba(255,255,255, 0.24);
 }
 
+.shadow {
+    filter: blur(16px);
+    opacity: 0.7;
+}
 
+.light-mode .shadow {
+    opacity: 0;
+}
 </style>
