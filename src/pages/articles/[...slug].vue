@@ -24,7 +24,7 @@ useJsonld({
     abstract: page.value.description,
     datePublished: page.value["publishedAt"],
     dateModified: page.value["modifiedAt"],
-    image: "https://committing-crimes.com/test.jpg", // TODO wire up article specific images
+    image: "https://committing-crimes.com/me.jpg", // TODO wire up article specific images
     author: {
         "@type": "Person",
         name: "Leon Linhart",
@@ -34,7 +34,7 @@ useJsonld({
 
 useServerSeoMeta({
     ogType: "article",
-    ogImage: "https://committing-crimes.com/test.jpg" // TODO wire up article specific images
+    ogImage: "https://committing-crimes.com/me.jpg" // TODO wire up article specific images
 });
 
 useServerHead({
