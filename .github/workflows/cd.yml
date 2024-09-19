@@ -5,11 +5,6 @@ on:
       - "master"
 
 
-concurrency:
-  group: "publish"
-  cancel-in-progress: true
-
-
 env:
   WORKSPACE_ARCHIVE: workspace.tar
   WORKSPACE_ARTIFACT: build-results
@@ -82,4 +77,4 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy ./dist --project-name committing-crimes
+          command: pages deploy ./dist --project-name committing-crimes-preview
