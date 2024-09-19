@@ -5,6 +5,13 @@
 !/.idea/scopes
 !/.idea/icon.png
 
+/.yarn/*
+!/.yarn/patches
+!/.yarn/plugins
+!/.yarn/releases
+!/.yarn/sdks
+!/.yarn/versions
+
 /.nuxt
 /.nitro
 /.cache
