@@ -30,10 +30,11 @@ jobs:
       - name: Tar files
         run: tar --exclude='.git' --exclude=${{ env.WORKSPACE_ARCHIVE }} -cvf ${{ env.WORKSPACE_ARCHIVE }} .
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
-          path: ./dist
+          name: ${{ env.WORKSPACE_ARTIFACT }}
+          path: ${{ env.WORKSPACE_ARCHIVE }}
+          retention-days: 1
 
   deploy:
     environment: ${{ inputs.environment || 'production' }}
