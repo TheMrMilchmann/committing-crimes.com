@@ -7,8 +7,8 @@
         <article>
             <aside role="region" style="float: right">
                 <div style="display: flex; align-items: center; justify-content: center">
-                    <LazyNuxtImg class="shadow" src="/me.jpg" width="272" />
-                    <LazyNuxtImg class="project-card-wrapper" src="/me.jpg" width="256" alt="A portrait of Leon Linhart standing on the Times Square." />
+                    <LazyNuxtImg class="shadow" src="/me.jpg" height="338" width="272" />
+                    <LazyNuxtImg class="project-card-wrapper" src="/me.jpg" height="318" width="256" alt="A portrait of Leon Linhart standing on the Times Square." />
                 </div>
             </aside>
 
