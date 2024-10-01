@@ -65,10 +65,16 @@ export default defineNuxtConfig({
         "@/assets/css/main.css"
     ],
 
+    fontMetrics: {
+        // https://github.com/nuxt-modules/fontaine/issues/372
+        fonts: ['Inter', 'JetBrains Mono']
+    },
+
     modules: [
         "@nuxt/content",
         "@nuxt/image",
         "@nuxtjs/color-mode",
+        "@nuxtjs/fontaine",
         "nuxt-jsonld"
     ],
 
