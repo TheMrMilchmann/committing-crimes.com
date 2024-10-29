@@ -2002,7 +2002,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*":
+"@types/node@npm:*, @types/node@npm:^22.0.0":
   version: 22.8.2
   resolution: "@types/node@npm:22.8.2"
   dependencies:
@@ -2015,15 +2015,6 @@ __metadata:
   version: 17.0.45
   resolution: "@types/node@npm:17.0.45"
   checksum: 10c0/0db377133d709b33a47892581a21a41cd7958f22723a3cc6c71d55ac018121382de42fbfc7970d5ae3e7819dbe5f40e1c6a5174aedf7e7964e9cb8fa72b580b0
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:^20.16.5":
-  version: 20.17.2
-  resolution: "@types/node@npm:20.17.2"
-  dependencies:
-    undici-types: "npm:~6.19.2"
-  checksum: 10c0/453ca052f9544ad66a9988ff881024588008795690c9ea7252e0594333ea11cec7d176a76c5e0f6b89ba42427c6e4684321427f9f515e8a9ba9a729f80c13054
   languageName: node
   linkType: hard
 
@@ -3487,7 +3478,7 @@ __metadata:
     "@nuxtjs/color-mode": "npm:^3.5.1"
     "@nuxtjs/fontaine": "npm:^0.4.3"
     "@playwright/test": "npm:^1.47.1"
-    "@types/node": "npm:^20.16.5"
+    "@types/node": "npm:^22.0.0"
     "@types/rss": "npm:^0.0.32"
     date-fns: "npm:^4.0.0"
     nuxt: "npm:^3.13.1"
@@ -9523,7 +9514,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"undici-types@npm:~6.19.2, undici-types@npm:~6.19.8":
+"undici-types@npm:~6.19.8":
   version: 6.19.8
   resolution: "undici-types@npm:6.19.8"
   checksum: 10c0/078afa5990fba110f6824823ace86073b4638f1d5112ee26e790155f481f2a868cc3e0615505b6f4282bdf74a3d8caad715fd809e870c2bb0704e3ea6082f344
