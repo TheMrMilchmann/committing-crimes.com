@@ -28,5 +28,8 @@
   "dependencies": {
     "date-fns": "^4.0.0"
   },
+  "engines": {
+    "node": "22"
+  },
   "packageManager": "yarn@4.5.1"
 }
