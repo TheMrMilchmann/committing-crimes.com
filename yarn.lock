@@ -1181,15 +1181,15 @@ __metadata:
   linkType: hard
 
 "@nuxtjs/fontaine@npm:^0.4.3":
-  version: 0.4.3
-  resolution: "@nuxtjs/fontaine@npm:0.4.3"
+  version: 0.4.4
+  resolution: "@nuxtjs/fontaine@npm:0.4.4"
   dependencies:
     "@nuxt/kit": "npm:^3.12.1"
     fontaine: "npm:^0.5.0"
     magic-string: "npm:^0.30.10"
     pathe: "npm:^1.1.2"
     ufo: "npm:^1.5.3"
-  checksum: 10c0/1ea729529f55cb463cc4b580d6a4d84b8b08e9351529593bc3df1c59e24bf751a11e066cb160f8318c508f21f95b3dd3b20dcfb4aadc122e7072f2169a6285cb
+  checksum: 10c0/46514243f6740ceb6768165e97e17c98a120bf93002f2ad0953eacfc01f025317ebefd25f26b0ebb34696bc6671fd7d7eed8b95f7186d69bd9c974e9e0f6981a
   languageName: node
   linkType: hard
 
