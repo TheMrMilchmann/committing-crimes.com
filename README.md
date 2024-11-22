@@ -1,4 +1,6 @@
-# [committing-crimes.com](https://committing-crimes.com)
+# [Committing Crimes](https://committing-crimes.com)
+
+This repository contains the source code and content of my personal website.
 
 
 ## License
