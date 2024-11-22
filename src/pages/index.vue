@@ -25,20 +25,15 @@ definePageMeta({
 });
 
 useHead({
-    title: "Committing Crimes",
-    meta: [
-        { property: "twitter:domain", content: "committing-crimes.com" },
-        { property: "twitter:url", content: "https://committing-crimes.com" },
-    ]
+    title: "Committing Crimes"
 });
 
 const description = "Tips, tricks, and quirks about programming and software development by Leon 'TheMrMilchmann' Linhart.";
 
 useServerSeoMeta({
     description: description,
-    ogDescription: description,
-    twitterDescription: description,
 
+    ogDescription: description,
     ogTitle: "Committing Crimes",
     ogType: "website",
     ogSiteName: "Committing Crimes",
@@ -46,6 +41,7 @@ useServerSeoMeta({
     ogUrl: "https://comitting-crimes.com",
 
     twitterCard: "summary",
+    twitterDescription: description,
     twitterTitle: "Committing Crimes",
     twitterImage: "https://committing-crimes.com/me.jpg"
 });
