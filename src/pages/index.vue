@@ -33,6 +33,8 @@ useHead({
 });
 
 useServerSeoMeta({
+    description: "Tips, tricks, and quirks about programming and software development by Leon 'TheMrMilchmann' Linhart.",
+
     ogTitle: "Committing Crimes",
     ogType: "website",
     ogSiteName: "Committing Crimes",
