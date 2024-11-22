@@ -32,8 +32,12 @@ useHead({
     ]
 });
 
+const description = "Tips, tricks, and quirks about programming and software development by Leon 'TheMrMilchmann' Linhart.";
+
 useServerSeoMeta({
-    description: "Tips, tricks, and quirks about programming and software development by Leon 'TheMrMilchmann' Linhart.",
+    description: description,
+    ogDescription: description,
+    twitterDescription: description,
 
     ogTitle: "Committing Crimes",
     ogType: "website",
