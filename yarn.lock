@@ -6844,12 +6844,12 @@ __metadata:
   linkType: hard
 
 "nuxt-jsonld@npm:^2.0.8":
-  version: 2.0.8
-  resolution: "nuxt-jsonld@npm:2.0.8"
+  version: 2.1.0
+  resolution: "nuxt-jsonld@npm:2.1.0"
   dependencies:
-    pathe: "npm:^1.1.0"
+    pathe: "npm:^1.1.2"
     schema-dts: "npm:^1.1.2"
-  checksum: 10c0/7f41b12ab6302a1962497e57189380f16146e96cbfb2e342240e489d500e60e2add34dc3bc2afcff176b1ec20334b7873eb6d012d5fe55a65c03ada810b1cff5
+  checksum: 10c0/61e306ee23f324a0f36849d698faf49d1ee601cfd4c027348ab1a338dc0c83caa62672721a035a27401a2a670a5c9b67140c53ab20410928e0b699c165fd2909
   languageName: node
   linkType: hard
 
@@ -7209,7 +7209,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pathe@npm:^1.1.0, pathe@npm:^1.1.1, pathe@npm:^1.1.2":
+"pathe@npm:^1.1.1, pathe@npm:^1.1.2":
   version: 1.1.2
   resolution: "pathe@npm:1.1.2"
   checksum: 10c0/64ee0a4e587fb0f208d9777a6c56e4f9050039268faaaaecd50e959ef01bf847b7872785c36483fa5cdcdbdfdb31fef2ff222684d4fc21c330ab60395c681897
