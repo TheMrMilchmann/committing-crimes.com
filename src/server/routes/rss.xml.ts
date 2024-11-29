@@ -14,7 +14,7 @@ export default defineEventHandler(async (event) => {
     });
 
     const articles = await serverQueryContent(event)
-        .sort({ date: -1 })
+        .sort({ publishedAt: -1 })
         .where({ _partial: false })
         .find();
 
@@ -22,7 +22,7 @@ export default defineEventHandler(async (event) => {
         feed.item({
             title: article.title ?? "-",
             url: `https://committing-crimes.com${article._path}`,
-            date: article.date,
+            date: article.publishedAt,
             description: article.description
         });
     }
