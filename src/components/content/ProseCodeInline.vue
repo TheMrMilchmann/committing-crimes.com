@@ -3,9 +3,11 @@
   - All rights reserved.
   -->
 <template>
-    <code class="inline-code">
-        <slot />
-    </code>
+    <span>
+        <code class="inline-code">
+            <slot />
+        </code>
+    </span>
 </template>
 
 <style scoped>
