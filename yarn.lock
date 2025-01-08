@@ -1040,28 +1040,27 @@ __metadata:
   linkType: hard
 
 "@nuxt/image@npm:^1.7.1":
-  version: 1.8.1
-  resolution: "@nuxt/image@npm:1.8.1"
+  version: 1.9.0
+  resolution: "@nuxt/image@npm:1.9.0"
   dependencies:
-    "@nuxt/kit": "npm:^3.13.2"
-    consola: "npm:^3.2.3"
+    "@nuxt/kit": "npm:^3.15.1"
+    consola: "npm:^3.3.3"
     defu: "npm:^6.1.4"
-    h3: "npm:^1.12.0"
+    h3: "npm:^1.13.0"
     image-meta: "npm:^0.2.1"
     ipx: "npm:^2.1.0"
-    node-fetch-native: "npm:^1.6.4"
     ohash: "npm:^1.1.4"
-    pathe: "npm:^1.1.2"
-    std-env: "npm:^3.7.0"
+    pathe: "npm:^2.0.0"
+    std-env: "npm:^3.8.0"
     ufo: "npm:^1.5.4"
   dependenciesMeta:
     ipx:
       optional: true
-  checksum: 10c0/46293b912d90ff8249f5f9fb34f3ff13f6a26bef5e2d3a2e20aac99538e11a0c1b5702c30c29cf6068e7c62d5c02bd2f351f59d6c369a35735d2a16c7e225b30
+  checksum: 10c0/83cb28042b48f6de0617971f265cabb137790e4a0c0f8d06d5f02a4c8c696f2d1ff304cb3703da9c15fc4b99229b6ee6a89a320fd2c981bc48aee3609e1eeb62
   languageName: node
   linkType: hard
 
-"@nuxt/kit@npm:3.15.1, @nuxt/kit@npm:^3.12.1, @nuxt/kit@npm:^3.13.2, @nuxt/kit@npm:^3.14.1592, @nuxt/kit@npm:^3.15.0":
+"@nuxt/kit@npm:3.15.1, @nuxt/kit@npm:^3.12.1, @nuxt/kit@npm:^3.13.2, @nuxt/kit@npm:^3.14.1592, @nuxt/kit@npm:^3.15.0, @nuxt/kit@npm:^3.15.1":
   version: 3.15.1
   resolution: "@nuxt/kit@npm:3.15.1"
   dependencies:
