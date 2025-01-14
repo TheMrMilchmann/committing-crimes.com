@@ -3,13 +3,13 @@
   - All rights reserved.
   -->
 <template>
-    <li>
+    <li class="list-item">
         <slot />
     </li>
 </template>
 
 <style scoped>
-li {
+.list-item {
     line-height: 1.6em;
 }
 </style>
