@@ -29,8 +29,8 @@ useJsonld({
     "@type": "BlogPosting",
     headline: page.value.title,
     abstract: page.value.description,
-    datePublished: page.value["publishedAt"].toISOString(),
-    dateModified: (page.value["modifiedAt"] ?? page.value["publishedAt"]).toISOString(),
+    datePublished: page.value.publishedAt,
+    dateModified: page.value.modifiedAt ?? page.value.publishedAt,
     image: "https://committing-crimes.com/me.jpg", // TODO wire up article specific images
     author: {
         "@type": "Person",
