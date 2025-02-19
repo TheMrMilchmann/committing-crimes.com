@@ -2,7 +2,6 @@
  * Copyright (c) 2023-2025 Leon Linhart
  * All rights reserved.
  */
-import { serverQueryContent } from '#content/server';
 import RSS from "rss";
 
 export default defineEventHandler(async (event) => {
@@ -13,15 +12,14 @@ export default defineEventHandler(async (event) => {
         webMaster: "support@committing-crimes.com"
     });
 
-    const articles = await serverQueryContent(event)
-        .sort({ publishedAt: -1 })
-        .where({ _partial: false })
-        .find();
+    const articles = await queryCollection(event, "articles")
+        .order("publishedAt", "DESC")
+        .all();
 
     for (const article of articles) {
         feed.item({
             title: article.title ?? "-",
-            url: `https://committing-crimes.com${article._path}`,
+            url: `https://committing-crimes.com${article.path}`,
             date: article.publishedAt,
             description: article.description
         });

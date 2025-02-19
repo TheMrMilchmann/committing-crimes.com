@@ -5,6 +5,7 @@ tags: [tutorial, java, jvm, kotlin, gradle, toolchains]
 publishedAt: 2024-10-30
 ---
 
+
 # Safely Target Java Versions Using Gradle's Toolchains
 
 Gradle is a powerful build tool that is widely used in the JVM ecosystem. Gradle itself is also written in Java and

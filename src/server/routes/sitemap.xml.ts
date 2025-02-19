@@ -2,20 +2,18 @@
  * Copyright (c) 2023-2025 Leon Linhart
  * All rights reserved.
  */
-import { serverQueryContent } from "#content/server"
-import { SitemapStream, streamToPromise } from "sitemap"
+import { SitemapStream, streamToPromise } from "sitemap";
 
 export default defineEventHandler(async (event) => {
-    // Fetch all documents
-    const docs = await serverQueryContent(event).find();
+    const articles = await queryCollection(event, "articles").all();
 
     const sitemap = new SitemapStream({
         hostname: "https://committing-crimes.com"
     });
 
-    for (const doc of docs) {
+    for (const article of articles) {
         sitemap.write({
-            url: doc._path,
+            url: article.path,
             changefreq: "daily"
         });
     }

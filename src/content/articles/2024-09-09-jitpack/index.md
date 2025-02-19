@@ -5,6 +5,7 @@ tags: [opinion, java, android, jvm, jitpack, dependency-management]
 publishedAt: 2024-09-09
 ---
 
+
 # jitpack.io — Dangerously Simple
 
 [JitPack](https://jitpack.io/) is a package repository for JVM and Android projects. Unlike other package repositories,

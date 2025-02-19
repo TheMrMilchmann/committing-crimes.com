@@ -35,29 +35,21 @@ export default defineNuxtConfig({
     },
 
     content: {
-        contentHead: false,
-        documentDriven: {
-            // See https://github.com/dan-bowen/nuxt-blog-starter/issues/2
-            injectPage: false
-        },
-        highlight: {
-            preload: [
-                "c",
-                "java",
-                "json",
-                "kotlin",
-                "rust"
-            ],
-            theme: {
-                default: "github-light",
-                "dark-mode": "github-dark"
-            }
-        },
-        sources: {
-            content: {
-                driver: "fs",
-                prefix: "/articles",
-                base: "src/content/articles"
+        build: {
+            markdown: {
+                highlight: {
+                    preload: [
+                        "c",
+                        "java",
+                        "json",
+                        "kotlin",
+                        "rust"
+                    ],
+                    theme: {
+                        default: "github-light",
+                        "dark-mode": "github-dark"
+                    }
+                },
             }
         }
     },
@@ -86,10 +78,5 @@ export default defineNuxtConfig({
                 "/sitemap.xml"
             ]
         }
-    },
-
-    typescript: {
-        strict: true,
-        typeCheck: true
     }
 })

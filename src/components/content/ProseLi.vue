@@ -3,9 +3,7 @@
   - All rights reserved.
   -->
 <template>
-    <li class="list-item">
-        <slot />
-    </li>
+    <li class="list-item"><slot /></li>
 </template>
 
 <style scoped>

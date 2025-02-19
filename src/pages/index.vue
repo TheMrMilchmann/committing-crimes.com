@@ -4,25 +4,20 @@
   -->
 <template>
     <div>
-        <ContentList :query="articlesQuery" v-slot="{ list }: { list: ParsedContentMeta[] }">
-            <div class="article-list-entry" v-for="article in list" :key="article._path">
-                <span class="monospaced">{{ formatDateString(article.publishedAt) }}</span>
+        <div class="article-list-entry" v-for="article in articles" :key="article.path">
+            <span class="monospaced">{{ formatDateString(article.publishedAt) }}</span>
 
-                <CCLink :href="article._path">
-                    {{ article.title }}
-                </CCLink>
-            </div>
-        </ContentList>
+            <CCLink :href="article.path">
+                {{ article.title }}
+            </CCLink>
+        </div>
     </div>
 </template>
 
 <script setup lang="ts">
-import type {ParsedContentMeta, QueryBuilderParams} from "@nuxt/content";
-import {format, parseISO} from "date-fns";
+import {format} from "date-fns";
 
-definePageMeta({
-    documentDriven: false
-});
+const articles = await queryCollection("articles").all();
 
 useHead({
     title: "Committing Crimes"
@@ -46,13 +41,8 @@ useServerSeoMeta({
     twitterImage: "https://committing-crimes.com/me.jpg"
 });
 
-const articlesQuery: QueryBuilderParams = {
-    path: "/articles",
-    sort: [{ publishedAt: -1 }]
-};
-
-function formatDateString(date: string): string {
-    return format(parseISO(date), "yyyy-MM-dd");
+function formatDateString(date: Date): string {
+    return format(date, "yyyy-MM-dd");
 }
 </script>
 

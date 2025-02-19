@@ -4,26 +4,33 @@
   -->
 <template>
     <div>
-        <ContentDoc>
-            <template #not-found>
-                <h2>Not found</h2>
-            </template>
-        </ContentDoc>
+        <ContentRenderer v-if="page" :value="page" />
     </div>
 </template>
 
 <script setup lang="ts">
-const { page } = useContent();
+const route = useRoute();
+const { data: page } = await useAsyncData(route.path, () => {
+    return queryCollection("articles").path(route.path).first();
+});
 
-useContentHead(page);
+// Ensure `page.value` is not null
+if (!page.value) {
+    throw createError({
+        statusCode: 404,
+        statusMessage: "Page not found",
+    });
+}
+
+useSeoMeta(page.value.seo);
 
 useJsonld({
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     headline: page.value.title,
     abstract: page.value.description,
-    datePublished: page.value["publishedAt"],
-    dateModified: page.value["modifiedAt"],
+    datePublished: page.value["publishedAt"].toISOString(),
+    dateModified: (page.value["modifiedAt"] ?? page.value["publishedAt"]).toISOString(),
     image: "https://committing-crimes.com/me.jpg", // TODO wire up article specific images
     author: {
         "@type": "Person",

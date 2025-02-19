@@ -3,43 +3,22 @@
   - All rights reserved.
   -->
 <template>
-    <div class="code-block .monospaced">
-        <slot />
-    </div>
+    <span>
+        <code class="inline-code">
+            <slot />
+        </code>
+    </span>
 </template>
 
 <style scoped>
-.code-block {
-    display: block;
-
-    overflow-x: auto;
-    scrollbar-width: thin;
-    scrollbar-color: var(--highlight-color) transparent;
+.inline-code {
+    font-size: 85%;
+    padding: 0.2em 0.4em;
+    background-color: rgba(175, 184, 193, 0.2);
+    border-radius: 6px;
 }
 
-.code-block:deep(pre) {
-    background-color: transparent;
+.dark-mode > .inline-code {
+    background-color: rgba(110, 118, 129, 0.7);
 }
-
-.code-block::-webkit-scrollbar {
-    height: 11px;
-}
-
-.code-block::-webkit-scrollbar-track {
-    background: transparent;
-}
-
-.code-block::-webkit-scrollbar-thumb {
-    background: var(--highlight-color);
-}
-
-.code-block::-webkit-scrollbar-thumb:hover {
-    background: var(--highlight-color);
-}
-
-/*
-.code-block::-webkit-scrollbar-thumb:active {
-    background: red;
-}
- */
 </style>
