@@ -792,23 +792,23 @@ __metadata:
   linkType: hard
 
 "@nuxt/content@npm:^3.0.0":
-  version: 3.1.1
-  resolution: "@nuxt/content@npm:3.1.1"
+  version: 3.2.1
+  resolution: "@nuxt/content@npm:3.2.1"
   dependencies:
     "@nuxt/kit": "npm:^3.15.4"
     "@nuxtjs/mdc": "npm:^0.13.5"
-    "@shikijs/langs": "npm:^2.3.2"
-    "@sqlite.org/sqlite-wasm": "npm:3.48.0-build4"
+    "@shikijs/langs": "npm:^2.5.0"
+    "@sqlite.org/sqlite-wasm": "npm:3.49.0-build3"
     "@webcontainer/env": "npm:^1.1.1"
     better-sqlite3: "npm:^11.8.1"
-    c12: "npm:^2.0.1"
+    c12: "npm:^2.0.2"
     chokidar: "npm:^4.0.3"
     consola: "npm:^3.4.0"
-    db0: "npm:^0.2.3"
+    db0: "npm:^0.2.4"
     defu: "npm:^6.1.4"
     destr: "npm:^2.0.3"
     fast-glob: "npm:^3.3.3"
-    git-url-parse: "npm:^16.0.0"
+    git-url-parse: "npm:^16.0.1"
     jiti: "npm:^2.4.2"
     knitwork: "npm:^1.2.0"
     listhen: "npm:^1.9.0"
@@ -824,11 +824,11 @@ __metadata:
     nuxt-component-meta: "npm:^0.10.0"
     ohash: "npm:^1.1.4"
     parse-git-config: "npm:^3.0.0"
-    pathe: "npm:^2.0.2"
+    pathe: "npm:^2.0.3"
     pkg-types: "npm:^1.3.1"
     remark-mdc: "npm:latest"
     scule: "npm:^1.3.0"
-    shiki: "npm:^2.3.2"
+    shiki: "npm:^2.5.0"
     slugify: "npm:^1.6.6"
     socket.io-client: "npm:^4.8.1"
     tar: "npm:^7.4.3"
@@ -836,9 +836,9 @@ __metadata:
     unified: "npm:^11.0.5"
     unist-util-stringify-position: "npm:^4.0.0"
     unist-util-visit: "npm:^5.0.0"
-    ws: "npm:^8.18.0"
-    zod: "npm:^3.24.1"
-    zod-to-json-schema: "npm:^3.24.1"
+    ws: "npm:^8.18.1"
+    zod: "npm:^3.24.2"
+    zod-to-json-schema: "npm:^3.24.2"
     zod-to-ts: "npm:^1.2.0"
   peerDependencies:
     "@electric-sql/pglite": "*"
@@ -851,7 +851,7 @@ __metadata:
       optional: true
     sqlite3:
       optional: true
-  checksum: 10c0/5320324f80a67ee07ad280983c3084a9f08f166af2501152008c1bec5457d197bca7d33ceb8d277b5c1a6c80318dbaefce492ee9681c00617c1585030614191b
+  checksum: 10c0/ffe6969016711178b5923a4b09f50579f3c91b76826b0d1f1554ef578ab8fbf6a35310fe501b1ee5daf38317fc5ea0da0e65a3f9aafb7d5691c748d2ed3153de
   languageName: node
   linkType: hard
 
@@ -1698,7 +1698,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@shikijs/langs@npm:2.5.0, @shikijs/langs@npm:^2.3.2":
+"@shikijs/langs@npm:2.5.0, @shikijs/langs@npm:^2.5.0":
   version: 2.5.0
   resolution: "@shikijs/langs@npm:2.5.0"
   dependencies:
@@ -1790,12 +1790,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sqlite.org/sqlite-wasm@npm:3.48.0-build4":
-  version: 3.48.0-build4
-  resolution: "@sqlite.org/sqlite-wasm@npm:3.48.0-build4"
+"@sqlite.org/sqlite-wasm@npm:3.49.0-build3":
+  version: 3.49.0-build3
+  resolution: "@sqlite.org/sqlite-wasm@npm:3.49.0-build3"
   bin:
     sqlite-wasm: bin/index.js
-  checksum: 10c0/82adb0c24fcc2e3c844bb1dd055d07879add7daa39963a0d75f01f186f5a182d20fb75f6cf046b54f136af8a2495516da4a2d8f34d2195cd30161209ab965760
+  checksum: 10c0/ac307cfb84b6a394985f6a1b0f905a4032a498bfe1a54f649b97597bdb826ee46b1fe9d1d5f25bf6e9540649c2b4d06de4fb6574abb9d0175331d7085eef41cf
   languageName: node
   linkType: hard
 
@@ -2815,6 +2815,31 @@ __metadata:
   languageName: node
   linkType: hard
 
+"c12@npm:^2.0.2":
+  version: 2.0.4
+  resolution: "c12@npm:2.0.4"
+  dependencies:
+    chokidar: "npm:^4.0.3"
+    confbox: "npm:^0.1.8"
+    defu: "npm:^6.1.4"
+    dotenv: "npm:^16.4.7"
+    giget: "npm:^1.2.4"
+    jiti: "npm:^2.4.2"
+    mlly: "npm:^1.7.4"
+    ohash: "npm:^2.0.4"
+    pathe: "npm:^2.0.3"
+    perfect-debounce: "npm:^1.0.0"
+    pkg-types: "npm:^1.3.1"
+    rc9: "npm:^2.1.2"
+  peerDependencies:
+    magicast: ^0.3.5
+  peerDependenciesMeta:
+    magicast:
+      optional: true
+  checksum: 10c0/c2846397b6df618476dd81ae3255e325903aec61f566a91c51e3ea4af3fe058e0735aab41df47c31a3526801207c76a40d21392fce5991b3a1842830702bc8cd
+  languageName: node
+  linkType: hard
+
 "cac@npm:^6.7.14":
   version: 6.7.14
   resolution: "cac@npm:6.7.14"
@@ -3432,7 +3457,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"db0@npm:^0.2.3":
+"db0@npm:^0.2.4":
   version: 0.2.4
   resolution: "db0@npm:0.2.4"
   peerDependencies:
@@ -4403,6 +4428,15 @@ __metadata:
   dependencies:
     git-up: "npm:^8.0.0"
   checksum: 10c0/c5466d9addcd2a10292e2c477124dc74087ac9525df3bd5d8951371a2dcf864e52dc62e7f85a39373cf8fc1448675b3ff610ecf9ce080bf1da859249c4d81c1a
+  languageName: node
+  linkType: hard
+
+"git-url-parse@npm:^16.0.1":
+  version: 16.0.1
+  resolution: "git-url-parse@npm:16.0.1"
+  dependencies:
+    git-up: "npm:^8.0.0"
+  checksum: 10c0/bef681b3726c730a3efb599d38ab6affbb13e5e85269fc9c35831ddfe0d195e6a29098c79c8faa63ccd8503ace54c2c4b01a73122af3b66c2ce11f4692b3ef19
   languageName: node
   linkType: hard
 
@@ -6862,6 +6896,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"ohash@npm:^2.0.4":
+  version: 2.0.4
+  resolution: "ohash@npm:2.0.4"
+  checksum: 10c0/230983e1ed365bc24c8096ef23fb0190ca6aeba8e4439b82be39660e5fd3b7051b278b65716d848da3f3a9eca570f21719c4822baf99dfddba1cacf98ea3800d
+  languageName: node
+  linkType: hard
+
 "on-finished@npm:2.4.1":
   version: 2.4.1
   resolution: "on-finished@npm:2.4.1"
@@ -8387,7 +8428,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"shiki@npm:^2.3.2":
+"shiki@npm:^2.5.0":
   version: 2.5.0
   resolution: "shiki@npm:2.5.0"
   dependencies:
@@ -10004,6 +10045,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"ws@npm:^8.18.1":
+  version: 8.18.1
+  resolution: "ws@npm:8.18.1"
+  peerDependencies:
+    bufferutil: ^4.0.1
+    utf-8-validate: ">=5.0.2"
+  peerDependenciesMeta:
+    bufferutil:
+      optional: true
+    utf-8-validate:
+      optional: true
+  checksum: 10c0/e498965d6938c63058c4310ffb6967f07d4fa06789d3364829028af380d299fe05762961742971c764973dce3d1f6a2633fe8b2d9410c9b52e534b4b882a99fa
+  languageName: node
+  linkType: hard
+
 "ws@npm:~8.17.1":
   version: 8.17.1
   resolution: "ws@npm:8.17.1"
@@ -10129,12 +10185,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"zod-to-json-schema@npm:^3.24.1":
-  version: 3.24.1
-  resolution: "zod-to-json-schema@npm:3.24.1"
+"zod-to-json-schema@npm:^3.24.2":
+  version: 3.24.2
+  resolution: "zod-to-json-schema@npm:3.24.2"
   peerDependencies:
     zod: ^3.24.1
-  checksum: 10c0/dd4e72085003e41a3f532bd00061f27041418a4eb176aa6ce33042db08d141bd37707017ee9117d97738ae3f22fc3e1404ea44e6354634ac5da79d7d3173b4ee
+  checksum: 10c0/86d0ce182b17cc1a94290fec207393a0af40051a4300441d65b6c2e4a05bba731e863f23782dff99500225c60d21f0a0a6de01ae9127f5df953329193427a7c9
   languageName: node
   linkType: hard
 
@@ -10148,7 +10204,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"zod@npm:^3.24.1":
+"zod@npm:^3.24.2":
   version: 3.24.2
   resolution: "zod@npm:3.24.2"
   checksum: 10c0/c638c7220150847f13ad90635b3e7d0321b36cce36f3fc6050ed960689594c949c326dfe2c6fa87c14b126ee5d370ccdebd6efb304f41ef5557a4aaca2824565
