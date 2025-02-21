@@ -965,7 +965,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/kit@npm:3.15.4, @nuxt/kit@npm:^3.12.1, @nuxt/kit@npm:^3.13.2, @nuxt/kit@npm:^3.15.0, @nuxt/kit@npm:^3.15.1, @nuxt/kit@npm:^3.15.2, @nuxt/kit@npm:^3.15.4":
+"@nuxt/kit@npm:3.15.4, @nuxt/kit@npm:^3.13.2, @nuxt/kit@npm:^3.15.0, @nuxt/kit@npm:^3.15.1, @nuxt/kit@npm:^3.15.2, @nuxt/kit@npm:^3.15.4":
   version: 3.15.4
   resolution: "@nuxt/kit@npm:3.15.4"
   dependencies:
@@ -1081,16 +1081,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxtjs/fontaine@npm:^0.4.3":
-  version: 0.4.4
-  resolution: "@nuxtjs/fontaine@npm:0.4.4"
+"@nuxtjs/fontaine@npm:^0.5.0":
+  version: 0.5.0
+  resolution: "@nuxtjs/fontaine@npm:0.5.0"
   dependencies:
-    "@nuxt/kit": "npm:^3.12.1"
+    "@nuxt/kit": "npm:^3.15.4"
     fontaine: "npm:^0.5.0"
-    magic-string: "npm:^0.30.10"
-    pathe: "npm:^1.1.2"
-    ufo: "npm:^1.5.3"
-  checksum: 10c0/46514243f6740ceb6768165e97e17c98a120bf93002f2ad0953eacfc01f025317ebefd25f26b0ebb34696bc6671fd7d7eed8b95f7186d69bd9c974e9e0f6981a
+    magic-string: "npm:^0.30.17"
+    pathe: "npm:^2.0.3"
+    ufo: "npm:^1.5.4"
+  checksum: 10c0/6ff75f258e8f37e45e2d3cd40230f02cb75efc3276a2e1237adb8b79eb40784db2d7769649dad48c902b087ccfbeaf3e4206ac7d981255e51e0aad85c6440257
   languageName: node
   linkType: hard
 
@@ -3099,7 +3099,7 @@ __metadata:
     "@nuxt/content": "npm:^3.0.0"
     "@nuxt/image": "npm:^1.7.1"
     "@nuxtjs/color-mode": "npm:^3.5.1"
-    "@nuxtjs/fontaine": "npm:^0.4.3"
+    "@nuxtjs/fontaine": "npm:^0.5.0"
     "@playwright/test": "npm:^1.47.1"
     "@types/node": "npm:^22.0.0"
     "@types/rss": "npm:^0.0.32"
@@ -5567,7 +5567,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"magic-string@npm:^0.30.10, magic-string@npm:^0.30.11, magic-string@npm:^0.30.12, magic-string@npm:^0.30.17, magic-string@npm:^0.30.3, magic-string@npm:^0.30.4, magic-string@npm:^0.30.8":
+"magic-string@npm:^0.30.11, magic-string@npm:^0.30.12, magic-string@npm:^0.30.17, magic-string@npm:^0.30.3, magic-string@npm:^0.30.4, magic-string@npm:^0.30.8":
   version: 0.30.17
   resolution: "magic-string@npm:0.30.17"
   dependencies:
@@ -7121,6 +7121,13 @@ __metadata:
   version: 2.0.2
   resolution: "pathe@npm:2.0.2"
   checksum: 10c0/21fce96ca9cebf037b075de8e5cc4ac6aa1009bce57946a72695f47ded84cf4b29f03bed721ea0f6e39b69eb1a0620bcee1f72eca46086765214a2965399b83a
+  languageName: node
+  linkType: hard
+
+"pathe@npm:^2.0.3":
+  version: 2.0.3
+  resolution: "pathe@npm:2.0.3"
+  checksum: 10c0/c118dc5a8b5c4166011b2b70608762e260085180bb9e33e80a50dcdb1e78c010b1624f4280c492c92b05fc276715a4c357d1f9edc570f8f1b3d90b6839ebaca1
   languageName: node
   linkType: hard
 
@@ -9081,7 +9088,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ufo@npm:^1.1.2, ufo@npm:^1.3.2, ufo@npm:^1.4.0, ufo@npm:^1.5.3, ufo@npm:^1.5.4":
+"ufo@npm:^1.1.2, ufo@npm:^1.3.2, ufo@npm:^1.4.0, ufo@npm:^1.5.4":
   version: 1.5.4
   resolution: "ufo@npm:1.5.4"
   checksum: 10c0/b5dc4dc435c49c9ef8890f1b280a19ee4d0954d1d6f9ab66ce62ce64dd04c7be476781531f952a07c678d51638d02ad4b98e16237be29149295b0f7c09cda765
