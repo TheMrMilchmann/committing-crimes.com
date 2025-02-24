@@ -791,8 +791,8 @@ __metadata:
   linkType: hard
 
 "@nuxt/content@npm:^3.0.0":
-  version: 3.2.1
-  resolution: "@nuxt/content@npm:3.2.1"
+  version: 3.2.2
+  resolution: "@nuxt/content@npm:3.2.2"
   dependencies:
     "@nuxt/kit": "npm:^3.15.4"
     "@nuxtjs/mdc": "npm:^0.13.5"
@@ -800,7 +800,7 @@ __metadata:
     "@sqlite.org/sqlite-wasm": "npm:3.49.0-build3"
     "@webcontainer/env": "npm:^1.1.1"
     better-sqlite3: "npm:^11.8.1"
-    c12: "npm:^2.0.2"
+    c12: "npm:^2.0.4"
     chokidar: "npm:^4.0.3"
     consola: "npm:^3.4.0"
     db0: "npm:^0.2.4"
@@ -837,7 +837,7 @@ __metadata:
     unist-util-visit: "npm:^5.0.0"
     ws: "npm:^8.18.1"
     zod: "npm:^3.24.2"
-    zod-to-json-schema: "npm:^3.24.2"
+    zod-to-json-schema: "npm:^3.24.3"
     zod-to-ts: "npm:^1.2.0"
   peerDependencies:
     "@electric-sql/pglite": "*"
@@ -850,7 +850,7 @@ __metadata:
       optional: true
     sqlite3:
       optional: true
-  checksum: 10c0/ffe6969016711178b5923a4b09f50579f3c91b76826b0d1f1554ef578ab8fbf6a35310fe501b1ee5daf38317fc5ea0da0e65a3f9aafb7d5691c748d2ed3153de
+  checksum: 10c0/0ab4a3af4d45717d6415413800c41c83a9d0757b3cc9a90559b9d9247b838977968504d030bc014b4182a55c132f45d0ea13f9f1be549c063f0c9a0befa5b6c0
   languageName: node
   linkType: hard
 
@@ -2772,7 +2772,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"c12@npm:^2.0.1, c12@npm:^2.0.2":
+"c12@npm:^2.0.1, c12@npm:^2.0.2, c12@npm:^2.0.4":
   version: 2.0.4
   resolution: "c12@npm:2.0.4"
   dependencies:
@@ -10083,7 +10083,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"zod-to-json-schema@npm:^3.24.2":
+"zod-to-json-schema@npm:^3.24.3":
   version: 3.24.3
   resolution: "zod-to-json-schema@npm:3.24.3"
   peerDependencies:
