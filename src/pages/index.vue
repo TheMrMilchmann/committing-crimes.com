@@ -17,7 +17,7 @@
 <script setup lang="ts">
 import {format} from "date-fns";
 
-const articles = await queryCollection("articles").all();
+const articles = await queryCollection("articles").order("publishedAt", "DESC").all();
 
 useHead({
     title: "Committing Crimes"
