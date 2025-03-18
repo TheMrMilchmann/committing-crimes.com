@@ -916,23 +916,24 @@ __metadata:
   linkType: hard
 
 "@nuxt/image@npm:^1.7.1":
-  version: 1.9.0
-  resolution: "@nuxt/image@npm:1.9.0"
+  version: 1.10.0
+  resolution: "@nuxt/image@npm:1.10.0"
   dependencies:
-    "@nuxt/kit": "npm:^3.15.1"
-    consola: "npm:^3.3.3"
+    "@nuxt/kit": "npm:^3.16.0"
+    consola: "npm:^3.4.2"
     defu: "npm:^6.1.4"
-    h3: "npm:^1.13.0"
+    h3: "npm:^1.15.1"
     image-meta: "npm:^0.2.1"
     ipx: "npm:^2.1.0"
-    ohash: "npm:^1.1.4"
-    pathe: "npm:^2.0.0"
-    std-env: "npm:^3.8.0"
+    knitwork: "npm:^1.2.0"
+    ohash: "npm:^2.0.11"
+    pathe: "npm:^2.0.3"
+    std-env: "npm:^3.8.1"
     ufo: "npm:^1.5.4"
   dependenciesMeta:
     ipx:
       optional: true
-  checksum: 10c0/83cb28042b48f6de0617971f265cabb137790e4a0c0f8d06d5f02a4c8c696f2d1ff304cb3703da9c15fc4b99229b6ee6a89a320fd2c981bc48aee3609e1eeb62
+  checksum: 10c0/85ca9f301e8745ba28e740b333d8c26cf7817e1e86fc7b12fe41601f300afff682a50b17371b4bd52579c274f5d61d56f748e71f585e93161c68d2363081f2f7
   languageName: node
   linkType: hard
 
@@ -3093,10 +3094,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"consola@npm:^3.2.3, consola@npm:^3.3.3, consola@npm:^3.4.0":
+"consola@npm:^3.2.3, consola@npm:^3.4.0":
   version: 3.4.0
   resolution: "consola@npm:3.4.0"
   checksum: 10c0/bc7f7ad46514375109a80f3ae8330097eb1e5d89232a24eb830f3ac383e22036a62c53d33561cd73d7cda4b3691fba85e3dcf35229ef7721b324aae291ceb40c
+  languageName: node
+  linkType: hard
+
+"consola@npm:^3.4.2":
+  version: 3.4.2
+  resolution: "consola@npm:3.4.2"
+  checksum: 10c0/7cebe57ecf646ba74b300bcce23bff43034ed6fbec9f7e39c27cee1dc00df8a21cd336b466ad32e304ea70fba04ec9e890c200270de9a526ce021ba8a7e4c11a
   languageName: node
   linkType: hard
 
@@ -4430,7 +4438,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"h3@npm:^1.10.0, h3@npm:^1.12.0, h3@npm:^1.13.0, h3@npm:^1.15.0, h3@npm:^1.15.1":
+"h3@npm:^1.10.0, h3@npm:^1.12.0, h3@npm:^1.15.0, h3@npm:^1.15.1":
   version: 1.15.1
   resolution: "h3@npm:1.15.1"
   dependencies:
@@ -7043,7 +7051,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pathe@npm:^2.0.0, pathe@npm:^2.0.1, pathe@npm:^2.0.2, pathe@npm:^2.0.3":
+"pathe@npm:^2.0.1, pathe@npm:^2.0.2, pathe@npm:^2.0.3":
   version: 2.0.3
   resolution: "pathe@npm:2.0.3"
   checksum: 10c0/c118dc5a8b5c4166011b2b70608762e260085180bb9e33e80a50dcdb1e78c010b1624f4280c492c92b05fc276715a4c357d1f9edc570f8f1b3d90b6839ebaca1
