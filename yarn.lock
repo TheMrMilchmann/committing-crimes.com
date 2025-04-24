@@ -1097,8 +1097,8 @@ __metadata:
   linkType: hard
 
 "@nuxt/content@npm:^3.0.0":
-  version: 3.5.0
-  resolution: "@nuxt/content@npm:3.5.0"
+  version: 3.5.1
+  resolution: "@nuxt/content@npm:3.5.1"
   dependencies:
     "@nuxt/kit": "npm:^3.16.2"
     "@nuxtjs/mdc": "npm:0.17.0"
@@ -1155,7 +1155,7 @@ __metadata:
       optional: true
     sqlite3:
       optional: true
-  checksum: 10c0/8e63b617bfe206ec36aa80e7620efb97d6426926ee2f4f784400197ce26ba02be613b209cf81ad5997faa6df9622f7978742c8bccef1e2abc20dd090f94abbf0
+  checksum: 10c0/0ced6960f2bcbeef16cafab792af66dfe3d882295d30aecf548f5289b408d4a24d195c1871fe392a362849213ad51567f9772ef121799453ca89695a8d31ab08
   languageName: node
   linkType: hard
 
