@@ -1,0 +1,5 @@
+https://*.pages.dev/*
+  X-Robots-Tag: noindex
+
+https://*.preview.committing-crimes.com/*
+  X-Robots-Tag: noindex
