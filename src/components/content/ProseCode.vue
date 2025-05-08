@@ -16,6 +16,7 @@
     padding: 0.2em 0.4em;
     background-color: rgba(175, 184, 193, 0.2);
     border-radius: 6px;
+    display: inline;
 }
 
 .dark-mode > .inline-code {
