@@ -29,7 +29,6 @@ export default defineNuxtConfig({
     components: {
         dirs: [
             "~/components/controls",
-            "~/components/embeds",
             "~/components/layout"
         ]
     },
