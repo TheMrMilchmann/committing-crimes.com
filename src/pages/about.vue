@@ -36,7 +36,7 @@
             </Paragraph>
 
             <Paragraph>
-                I created <code class="page-title">Committing Crimes</code> as personal website to write about software development and, occasionally, other things that cross my mind..
+                I created <code class="page-title">Committing Crimes</code> as personal website to write about software development and, occasionally, other things that cross my mind.
                 Stay tuned for more!
             </Paragraph>
         </article>
