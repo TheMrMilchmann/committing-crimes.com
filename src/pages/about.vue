@@ -32,7 +32,8 @@
 
             <Paragraph>
                 In 2023, I earned a bachelor's degree in Computer Science at RWTH Aachen University.
-                At this point, I decided to stop pursuing my studies and started working full-time as a backend software engineer at Yukawa Exponential GmbH.
+                At this point, I decided to stop pursuing my studies and started working full-time.
+                I'm currently working as software engineer at [Vyoma](https://www.vyoma.space/).
             </Paragraph>
 
             <Paragraph>
