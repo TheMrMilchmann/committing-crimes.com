@@ -33,7 +33,7 @@
             <Paragraph>
                 In 2023, I earned a bachelor's degree in Computer Science at RWTH Aachen University.
                 At this point, I decided to stop pursuing my studies and started working full-time.
-                I'm currently working as software engineer at [Vyoma](https://www.vyoma.space/).
+                I'm currently working as software engineer at <CCLink href="https://vyoma.space/" target="_blank">Vyoma</CCLink>.
             </Paragraph>
 
             <Paragraph>
