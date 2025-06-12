@@ -7410,12 +7410,12 @@ __metadata:
   linkType: hard
 
 "nuxt-jsonld@npm:^2.0.8":
-  version: 2.1.1
-  resolution: "nuxt-jsonld@npm:2.1.1"
+  version: 2.2.1
+  resolution: "nuxt-jsonld@npm:2.2.1"
   dependencies:
     pathe: "npm:^1.1.2"
     schema-dts: "npm:^1.1.2"
-  checksum: 10c0/ce966e8f6a78a5d8f764bb221517ca9efe8360d3213e0fce2590c20a922a4d50d86951de7882ffb5827ec51cbc63dfb88f770a2e61a7f45175a1784c3abe35c9
+  checksum: 10c0/6905f1fea972c23b4a4c9a69ffe2ab5f847e65abebd872cbe335133748577892a143081f26123344b5bd23da872b01b989f50ccf252ad4279c9c0920153c1b4c
   languageName: node
   linkType: hard
 
