@@ -27,6 +27,7 @@
     "vue-tsc": "~2.2.0"
   },
   "dependencies": {
+    "better-sqlite3": "^11.10.0",
     "date-fns": "^4.0.0"
   },
   "engines": {
