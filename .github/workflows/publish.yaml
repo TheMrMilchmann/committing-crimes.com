@@ -55,9 +55,6 @@ jobs:
           tar -xvf ${{ env.WORKSPACE_ARCHIVE }}
           rm ${{ env.WORKSPACE_ARCHIVE }}
 
-      - name: Install Wrangler
-        run: yarn global add wrangler@3.90.0
-
       - name: Deploy
         uses: cloudflare/wrangler-action@v3
         with:
