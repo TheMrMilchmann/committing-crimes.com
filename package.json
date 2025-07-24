@@ -18,7 +18,7 @@
     "@playwright/test": "^1.47.1",
     "@types/node": "^22.0.0",
     "@types/rss": "^0.0.32",
-    "nuxt": "^3.14.159",
+    "nuxt": "^4.0.1",
     "nuxt-jsonld": "^2.0.8",
     "rollup": "^4.24.4",
     "rss": "^1.2.2",

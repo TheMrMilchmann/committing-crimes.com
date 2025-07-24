@@ -9,7 +9,7 @@ export default defineContentConfig({
     collections: {
         articles: defineCollection({
             source: {
-                cwd: path.resolve("src/content"),
+                cwd: path.resolve("app/content"),
                 include: "articles/**/*.md",
                 prefix: "/articles"
             },
