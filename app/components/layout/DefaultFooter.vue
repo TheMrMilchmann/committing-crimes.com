@@ -5,11 +5,11 @@
 <template>
     <div class="footer-container">
         <div class="footer-icon-row">
-            <IconButton href="https://github.com/TheMrMilchmann" target="_blank" class="icon-github" />
-            <IconButton href="https://www.linkedin.com/in/leon-linhart/" target="_blank" class="icon-linkedin" />
-            <IconButton href="https://mastodon.social/@themrmilchmann" target="_blank" class="icon-mastodon" />
-            <IconButton href="https://twitch.tv/themrmilchmann" target="_blank" class="icon-twitch" />
-            <IconButton href="https://www.youtube.com/@TheMrMilchmann" target="_blank" class="icon-youtube" />
+            <IconButton href="https://github.com/TheMrMilchmann" rel="me" target="_blank" class="icon-github" />
+            <IconButton href="https://www.linkedin.com/in/leon-linhart/" rel="me" target="_blank" class="icon-linkedin" />
+            <IconButton href="https://mastodon.social/@themrmilchmann" rel="me" target="_blank" class="icon-mastodon" />
+            <IconButton href="https://twitch.tv/themrmilchmann" rel="me" target="_blank" class="icon-twitch" />
+            <IconButton href="https://www.youtube.com/@TheMrMilchmann" rel="me" target="_blank" class="icon-youtube" />
         </div>
     </div>
 </template>

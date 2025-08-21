@@ -3,7 +3,7 @@
   - All rights reserved.
   -->
 <template>
-    <NuxtLink :href="href" :target="target" class="link" />
+    <NuxtLink :href="href"  :rel="rel" :target="target" class="link" />
 </template>
 
 <script setup lang="ts">
@@ -11,6 +11,11 @@ defineProps({
     href: {
         type: String,
         default: ""
+    },
+    rel: {
+        type: String,
+        default: null,
+        required: false
     },
     target: {
         type: String,
