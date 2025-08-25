@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - "master"
+  workflow_dispatch:
 
 
 env:
@@ -58,4 +59,4 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy ./dist --project-name committing-crimes-preview
+          command: pages deploy ./.output/public --project-name committing-crimes-preview
