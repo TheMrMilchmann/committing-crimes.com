@@ -10,8 +10,15 @@
 
 <script setup lang="ts">
 const route = useRoute();
-const { data: page } = await useAsyncData(route.path, () => {
-    return queryCollection("articles").path(route.path).first();
+
+/*
+ * This is cursed on multiple levels. For one, we have to strip the trailing slash thanks to web servers being
+ * inconsistent. And if that wasn't enough, we also have to deal with the fact that JavaScript's stdlib absolutely
+ * sucks and implement removeSuffix the "hard" way.
+ */
+const path = route.path.endsWith("/") ? route.path.slice(0, -1) : route.path;
+const { data: page } = await useAsyncData(path, () => {
+    return queryCollection("articles").path(path).first();
 });
 
 // Ensure `page.value` is not null
