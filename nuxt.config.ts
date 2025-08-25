@@ -53,6 +53,16 @@ export default defineNuxtConfig({
                         "dark-mode": "github-dark"
                     }
                 },
+                rehypePlugins: {
+                    "rehype-katex": {
+                        options: {
+                            output: "mathml"
+                        }
+                    }
+                },
+                remarkPlugins: {
+                    "remark-math": {}
+                }
             }
         }
     },
@@ -80,6 +90,12 @@ export default defineNuxtConfig({
                 "/rss.xml",
                 "/sitemap.xml"
             ]
+        }
+    },
+
+    vue: {
+        compilerOptions: {
+            isCustomElement: (tag) => tag == "MjxContainer"
         }
     }
 })
