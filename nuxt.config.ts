@@ -91,11 +91,5 @@ export default defineNuxtConfig({
                 "/sitemap.xml"
             ]
         }
-    },
-
-    vue: {
-        compilerOptions: {
-            isCustomElement: (tag) => tag == "MjxContainer"
-        }
     }
 })
