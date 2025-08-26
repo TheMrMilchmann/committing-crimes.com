@@ -7,7 +7,9 @@
         <div class="layout-column">
             <DefaultHeader />
 
-            <slot />
+            <div>
+                <slot />
+            </div>
 
             <DefaultFooter class="footer" />
         </div>
@@ -43,3 +45,5 @@
     padding-bottom: 12px;
 }
 </style>
+<script setup lang="ts">
+</script>
