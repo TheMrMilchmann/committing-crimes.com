@@ -3,7 +3,7 @@
   - All rights reserved.
   -->
 <template>
-    <NuxtLink :href="href"  :rel="rel" :target="target" class="link" />
+    <NuxtLink :href="href"  :rel="rel" :target="target" class="link" :aria-label="label" />
 </template>
 
 <script setup lang="ts">
@@ -18,6 +18,11 @@ defineProps({
         required: false
     },
     target: {
+        type: String,
+        default: undefined,
+        required: false
+    },
+    label: {
         type: String,
         default: undefined,
         required: false

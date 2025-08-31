@@ -5,11 +5,11 @@
 <template>
     <div class="footer-container">
         <div class="footer-icon-row">
-            <IconButton href="https://github.com/TheMrMilchmann" rel="me" target="_blank" class="icon-github" />
-            <IconButton href="https://www.linkedin.com/in/leon-linhart/" rel="me" target="_blank" class="icon-linkedin" />
-            <IconButton href="https://mastodon.social/@themrmilchmann" rel="me" target="_blank" class="icon-mastodon" />
-            <IconButton href="https://twitch.tv/themrmilchmann" rel="me" target="_blank" class="icon-twitch" />
-            <IconButton href="https://www.youtube.com/@TheMrMilchmann" rel="me" target="_blank" class="icon-youtube" />
+            <IconButton href="https://github.com/TheMrMilchmann" rel="me" target="_blank" class="icon-github" label="Visit TheMrMilchmann's profile on GitHub" />
+            <IconButton href="https://www.linkedin.com/in/leon-linhart/" rel="me" target="_blank" class="icon-linkedin" label="Visit Leon Linhart on LinkedIn" />
+            <IconButton href="https://mastodon.social/@themrmilchmann" rel="me" target="_blank" class="icon-mastodon" label="Visit @TheMrMilchmann on Mastodon" />
+            <IconButton href="https://twitch.tv/themrmilchmann" rel="me" target="_blank" class="icon-twitch" label="Visit TheMrMilchmann on Twitch" />
+            <IconButton href="https://www.youtube.com/@TheMrMilchmann" rel="me" target="_blank" class="icon-youtube" label="Visit @TheMrMilchmann on YouTube" />
         </div>
     </div>
 </template>
