@@ -10670,16 +10670,16 @@ __metadata:
   linkType: hard
 
 "vue-tsc@npm:~3.0.0":
-  version: 3.0.6
-  resolution: "vue-tsc@npm:3.0.6"
+  version: 3.0.7
+  resolution: "vue-tsc@npm:3.0.7"
   dependencies:
     "@volar/typescript": "npm:2.4.23"
-    "@vue/language-core": "npm:3.0.6"
+    "@vue/language-core": "npm:3.0.7"
   peerDependencies:
     typescript: ">=5.0.0"
   bin:
     vue-tsc: ./bin/vue-tsc.js
-  checksum: 10c0/339f7518f4bff25a4b466e52d5db42670441c831aa2d53049ed3c7e7cf738e3b613cd249b6c48823f2731efb9344c9ca86df7e660f99328cac55139ca3a61a04
+  checksum: 10c0/2c5ae1ab66eed020ca5ebe49cbc9807658da1a79ad1ee9af5126d8b19d2d7209fd368d8f9e091176e99053a8e4e9e32824826242a13108e331a2fb6b67a67a7a
   languageName: node
   linkType: hard
 
