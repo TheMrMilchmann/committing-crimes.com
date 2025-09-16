@@ -1204,8 +1204,8 @@ __metadata:
   linkType: hard
 
 "@nuxt/content@npm:^3.0.0":
-  version: 3.7.0
-  resolution: "@nuxt/content@npm:3.7.0"
+  version: 3.7.1
+  resolution: "@nuxt/content@npm:3.7.1"
   dependencies:
     "@nuxt/kit": "npm:^4.1.1"
     "@nuxtjs/mdc": "npm:^0.17.4"
@@ -1261,8 +1261,6 @@ __metadata:
     better-sqlite3: ^12.2.0
     sqlite3: "*"
     valibot: ^1.0.0
-    zod: "*"
-    zod-to-json-schema: "*"
   peerDependenciesMeta:
     "@electric-sql/pglite":
       optional: true
@@ -1276,11 +1274,7 @@ __metadata:
       optional: true
     valibot:
       optional: true
-    zod:
-      optional: true
-    zod-to-json-schema:
-      optional: true
-  checksum: 10c0/eeb33757386b7eacd4297ab9e7559725b6ee6d427a8e925dfa6dbf4095860a0efb4ddf335f6b89432495960f51df9e62dd61cc7a074e4985a8618066e70c11c1
+  checksum: 10c0/e9c0adab490cacbf3d06180697a32c90ec1cafb527a5df10bfc29a8ac3a7a0ddec92924860258c347987d73cdd6c8623b3670e537a00d4b7536b8d4b40a3c336
   languageName: node
   linkType: hard
 
