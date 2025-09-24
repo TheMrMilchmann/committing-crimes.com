@@ -236,8 +236,8 @@ Similarly, the handler method for the filtering endpoint could be defined as fol
 ```java
 @Get("/person")
 public void getPersons(
-    @Query Omittable<String> name,
-    @Query Omittable<@Nullable String> nickname
+    @RequestParam Omittable<String> name,
+    @RequestParam Omittable<@Nullable String> nickname
 ) {
     // ...
 }
