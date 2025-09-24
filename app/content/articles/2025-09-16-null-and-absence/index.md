@@ -8,6 +8,10 @@ publishedAt: 2025-09-16
 
 # Omittable — Solving the Ambiguity of Null
 
+_Updated 2025-09-24: A previous version of this article inaccurately described how to explicitly pass `null` values to
+query parameters. To avoid confusion, this has been corrected to specify that this is the case if the query parameter is
+used without a value._
+
 When implementing a REST API, one might need to implement support for partial updates or filtering. Requests using the
 HTTP `PATCH` method commonly carry only the fields that should be updated. Similarly, filtering endpoints often filter
 based on the provided query parameters, while ignoring those that are omitted. In theory, this is not a complex
@@ -49,8 +53,8 @@ public void getPersons(
 ```
 
 Just like in the previous example, the `nickname` parameter will be set to `null` in two cases: If the query parameter
-is omitted, or if it is set to `null` explicitly. Again, the handler method cannot distinguish between these two cases.
-This is problematic as they carry different semantics: In the former case, the nickname should be ignored when
+is omitted entirely, or if it provided without a value. Again, the handler method cannot distinguish between these two
+cases. This is problematic as they carry different semantics: In the former case, the nickname should be ignored when
 filtering, while in the latter, only persons without a nickname (i.e., a nickname that is null) should be included.
 
 Both of these examples are direct consequences of the conflation of the concepts of null and absence. A better
