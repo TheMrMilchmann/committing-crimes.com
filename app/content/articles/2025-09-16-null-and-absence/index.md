@@ -8,10 +8,6 @@ publishedAt: 2025-09-16
 
 # Omittable — Solving the Ambiguity of Null
 
-_Updated 2025-09-24: A previous version of this article inaccurately described how to explicitly pass `null` values to
-query parameters. To avoid confusion, this has been corrected to specify that this is the case if the query parameter is
-used without a value._
-
 When implementing a REST API, one might need to implement support for partial updates or filtering. Requests using the
 HTTP `PATCH` method commonly carry only the fields that should be updated. Similarly, filtering endpoints often filter
 based on the provided query parameters, while ignoring those that are omitted. In theory, this is not a complex
@@ -289,6 +285,11 @@ record PersonUpdate(
 
 _Admittedly, the syntax does not look great. I sincerely hope for a module-wide mechanism to opt into non-null by
 default. More on that, perhaps, in a future article._
+
+
+_Updated 2025-09-24: A previous version of this article inaccurately described how to explicitly pass `null` values to
+query parameters. To avoid confusion, this has been corrected to specify that this is the case if the query parameter is
+used without a value._
 
 
 [^1]: This is a direct quote from Brian Goetz's [answer on Stack Overflow](https://stackoverflow.com/questions/26327957/should-java-8-getters-return-optional-type/26328555#26328555).
