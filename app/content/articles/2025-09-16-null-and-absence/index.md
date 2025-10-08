@@ -190,7 +190,7 @@ monad. `Omittable` is a container type that can be used to either represent a va
 While conceptually similar to `Optional` at first glance, it is fundamentally different in that it does not reuse `null`
 as a sentinel for absence. Instead, `null` is just a regular value that could be represented by an omittable.
 
-_Incidentally, the lack of special-casing of nulls is also what enables omittable to satisfy all three [monad laws](https://www.haskell.org/haskellwiki/monad_laws). The proof is left as an exercise to the reader. :)_
+_Incidentally, the lack of special-casing of nulls is also what enables omittable to satisfy all three monad laws. The proof is left as an exercise to the reader. :)_
 
 The API differences between `Omittable` and `Optional` are minor, with the core API of `Omittable` being equivalent to
 the snippet below.
