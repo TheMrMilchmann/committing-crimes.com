@@ -34,7 +34,7 @@
     "rehype-katex": "^7.0.1"
   },
   "engines": {
-    "node": "^22"
+    "node": "^24.0.0"
   },
   "packageManager": "yarn@4.10.3"
 }
