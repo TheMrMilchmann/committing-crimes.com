@@ -9470,8 +9470,8 @@ __metadata:
   linkType: hard
 
 "sitemap@npm:^8.0.0":
-  version: 8.0.1
-  resolution: "sitemap@npm:8.0.1"
+  version: 8.0.2
+  resolution: "sitemap@npm:8.0.2"
   dependencies:
     "@types/node": "npm:^17.0.5"
     "@types/sax": "npm:^1.2.1"
@@ -9479,7 +9479,7 @@ __metadata:
     sax: "npm:^1.4.1"
   bin:
     sitemap: dist/cli.js
-  checksum: 10c0/398c51e1670c7c01d46b2597e576bfcd6b5e84c3c97876db20a5be1f2a7bc7f63aaa22cbb9878f8d310e98fcd380be9f338c0bf18f6f4ff4df2312551664eece
+  checksum: 10c0/41a39e279eed9f3069eeb9bc26a8f54a6e586babaa25288211cae4b7ec33ac4b3b1eee8dcce4a1c2f7e4cf99b1f3b0caaa0f33959d7bef990b75546452267930
   languageName: node
   linkType: hard
 
