@@ -23,7 +23,7 @@
     "remark-math": "^6.0.0",
     "rollup": "^4.24.4",
     "rss": "^1.2.2",
-    "sitemap": "^8.0.0",
+    "sitemap": "^9.0.0",
     "typescript": "^5.5.4",
     "vue-tsc": "~3.1.0",
     "wrangler": "^4.22.0"

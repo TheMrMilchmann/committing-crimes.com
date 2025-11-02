@@ -2707,19 +2707,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^24.0.0":
+"@types/node@npm:*, @types/node@npm:^24.0.0, @types/node@npm:^24.9.2":
   version: 24.9.2
   resolution: "@types/node@npm:24.9.2"
   dependencies:
     undici-types: "npm:~7.16.0"
   checksum: 10c0/7905d43f65cee72ef475fe76316e10bbf6ac5d08a7f0f6c38f2b6285d7ca3009e8fcafc8f8a1d2bf3f55889c9c278dbb203a9081fd0cf2d6d62161703924c6fa
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:^17.0.5":
-  version: 17.0.45
-  resolution: "@types/node@npm:17.0.45"
-  checksum: 10c0/0db377133d709b33a47892581a21a41cd7958f22723a3cc6c71d55ac018121382de42fbfc7970d5ae3e7819dbe5f40e1c6a5174aedf7e7964e9cb8fa72b580b0
   languageName: node
   linkType: hard
 
@@ -3854,7 +3847,7 @@ __metadata:
     remark-math: "npm:^6.0.0"
     rollup: "npm:^4.24.4"
     rss: "npm:^1.2.2"
-    sitemap: "npm:^8.0.0"
+    sitemap: "npm:^9.0.0"
     typescript: "npm:^5.5.4"
     vue-tsc: "npm:~3.1.0"
     wrangler: "npm:^4.22.0"
@@ -9477,17 +9470,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sitemap@npm:^8.0.0":
-  version: 8.0.2
-  resolution: "sitemap@npm:8.0.2"
+"sitemap@npm:^9.0.0":
+  version: 9.0.0
+  resolution: "sitemap@npm:9.0.0"
   dependencies:
-    "@types/node": "npm:^17.0.5"
+    "@types/node": "npm:^24.9.2"
     "@types/sax": "npm:^1.2.1"
     arg: "npm:^5.0.0"
     sax: "npm:^1.4.1"
   bin:
-    sitemap: dist/cli.js
-  checksum: 10c0/41a39e279eed9f3069eeb9bc26a8f54a6e586babaa25288211cae4b7ec33ac4b3b1eee8dcce4a1c2f7e4cf99b1f3b0caaa0f33959d7bef990b75546452267930
+    sitemap: dist/esm/cli.js
+  checksum: 10c0/970c51f88185268676aa2e242de0155fa0a3fd915e56987fdbe51f44bf8d5246f2c4b05cf290e57ab5505820e081ce471e1a5a38572944f724ace705c61bf675
   languageName: node
   linkType: hard
 
