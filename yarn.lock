@@ -1449,16 +1449,16 @@ __metadata:
   linkType: hard
 
 "@nuxt/content@npm:^3.0.0":
-  version: 3.8.0
-  resolution: "@nuxt/content@npm:3.8.0"
+  version: 3.8.2
+  resolution: "@nuxt/content@npm:3.8.2"
   dependencies:
-    "@nuxt/kit": "npm:^4.2.0"
-    "@nuxtjs/mdc": "npm:^0.18.0"
-    "@shikijs/langs": "npm:^3.14.0"
+    "@nuxt/kit": "npm:^4.2.1"
+    "@nuxtjs/mdc": "npm:^0.18.3"
+    "@shikijs/langs": "npm:^3.15.0"
     "@sqlite.org/sqlite-wasm": "npm:3.50.4-build1"
     "@standard-schema/spec": "npm:^1.0.0"
     "@webcontainer/env": "npm:^1.1.1"
-    c12: "npm:^3.3.1"
+    c12: "npm:^3.3.2"
     chokidar: "npm:^4.0.3"
     consola: "npm:^3.4.2"
     db0: "npm:^0.3.4"
@@ -1478,16 +1478,16 @@ __metadata:
     micromark-util-sanitize-uri: "npm:^2.0.1"
     micromatch: "npm:^4.0.8"
     minimark: "npm:^0.2.0"
-    minimatch: "npm:^10.0.3"
-    modern-tar: "npm:^0.6.1"
-    nuxt-component-meta: "https://pkg.pr.new/nuxt-component-meta@e3eb2c4"
+    minimatch: "npm:^10.1.1"
+    modern-tar: "npm:^0.7.0"
+    nuxt-component-meta: "npm:0.14.2"
     nypm: "npm:^0.6.2"
     ohash: "npm:^2.0.11"
     pathe: "npm:^2.0.3"
     pkg-types: "npm:^2.3.0"
-    remark-mdc: "npm:^3.7.0"
+    remark-mdc: "npm:^3.8.1"
     scule: "npm:^1.3.0"
-    shiki: "npm:^3.14.0"
+    shiki: "npm:^3.15.0"
     slugify: "npm:^1.6.6"
     socket.io-client: "npm:^4.8.1"
     std-env: "npm:^3.10.0"
@@ -1520,7 +1520,7 @@ __metadata:
       optional: true
     valibot:
       optional: true
-  checksum: 10c0/5b2a829c9c0539a8b52d76232b987b364feb92faee9c974b2dda11760ad159a96000b2e5e37c7913cd4852ec0ed60946a972afa7f19982b58c0181b01e44f6e5
+  checksum: 10c0/e774f5f7bcf868696e7b895f26ee174613b4614d331e638ef3e90f5e89c86efc4f222beea5fa027e49e0520d6772b2c83bb0bf58b0efc9adbdb4fd3bf1053a4c
   languageName: node
   linkType: hard
 
@@ -1631,7 +1631,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/kit@npm:4.2.1, @nuxt/kit@npm:^4.1.1, @nuxt/kit@npm:^4.2.0, @nuxt/kit@npm:^4.2.1":
+"@nuxt/kit@npm:4.2.1, @nuxt/kit@npm:^4.2.0, @nuxt/kit@npm:^4.2.1":
   version: 4.2.1
   resolution: "@nuxt/kit@npm:4.2.1"
   dependencies:
@@ -1830,18 +1830,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxtjs/mdc@npm:^0.18.0":
-  version: 0.18.2
-  resolution: "@nuxtjs/mdc@npm:0.18.2"
+"@nuxtjs/mdc@npm:^0.18.3":
+  version: 0.18.3
+  resolution: "@nuxtjs/mdc@npm:0.18.3"
   dependencies:
-    "@nuxt/kit": "npm:^4.2.0"
-    "@shikijs/core": "npm:^3.14.0"
-    "@shikijs/langs": "npm:^3.14.0"
-    "@shikijs/themes": "npm:^3.14.0"
-    "@shikijs/transformers": "npm:^3.14.0"
+    "@nuxt/kit": "npm:^4.2.1"
+    "@shikijs/core": "npm:^3.15.0"
+    "@shikijs/langs": "npm:^3.15.0"
+    "@shikijs/themes": "npm:^3.15.0"
+    "@shikijs/transformers": "npm:^3.15.0"
     "@types/hast": "npm:^3.0.4"
     "@types/mdast": "npm:^4.0.4"
-    "@vue/compiler-core": "npm:^3.5.22"
+    "@vue/compiler-core": "npm:^3.5.24"
     consola: "npm:^3.4.2"
     debug: "npm:^4.4.3"
     defu: "npm:^6.1.4"
@@ -1870,14 +1870,14 @@ __metadata:
     remark-rehype: "npm:^11.1.2"
     remark-stringify: "npm:^11.0.0"
     scule: "npm:^1.3.0"
-    shiki: "npm:^3.14.0"
+    shiki: "npm:^3.15.0"
     ufo: "npm:^1.6.1"
     unified: "npm:^11.0.5"
     unist-builder: "npm:^4.0.0"
     unist-util-visit: "npm:^5.0.0"
-    unwasm: "npm:^0.4.2"
+    unwasm: "npm:^0.5.0"
     vfile: "npm:^6.0.3"
-  checksum: 10c0/cfb16d073b33358565ab5485638de655f4f13a8663c59af7efeba8066f3621c3cc2436ea0c931d7b77f1aa482cfe693aa08efddbdb1fa9cdabdf4447455a820b
+  checksum: 10c0/b67cf685bac9d7f38f6d3c10fc6a908c0c175766144530f2dca7e87458ce3789c8cf7476004fb0522b8f8c9d53ae10b8834786f9ad0d15c04b89ccf941b935f4
   languageName: node
   linkType: hard
 
@@ -2711,7 +2711,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@shikijs/core@npm:3.15.0, @shikijs/core@npm:^3.14.0":
+"@shikijs/core@npm:3.15.0, @shikijs/core@npm:^3.15.0":
   version: 3.15.0
   resolution: "@shikijs/core@npm:3.15.0"
   dependencies:
@@ -2744,7 +2744,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@shikijs/langs@npm:3.15.0, @shikijs/langs@npm:^3.14.0":
+"@shikijs/langs@npm:3.15.0, @shikijs/langs@npm:^3.15.0":
   version: 3.15.0
   resolution: "@shikijs/langs@npm:3.15.0"
   dependencies:
@@ -2753,7 +2753,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@shikijs/themes@npm:3.15.0, @shikijs/themes@npm:^3.14.0":
+"@shikijs/themes@npm:3.15.0, @shikijs/themes@npm:^3.15.0":
   version: 3.15.0
   resolution: "@shikijs/themes@npm:3.15.0"
   dependencies:
@@ -2762,7 +2762,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@shikijs/transformers@npm:^3.14.0":
+"@shikijs/transformers@npm:^3.15.0":
   version: 3.15.0
   resolution: "@shikijs/transformers@npm:3.15.0"
   dependencies:
@@ -3131,7 +3131,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/compiler-core@npm:3.5.24, @vue/compiler-core@npm:^3.5.22":
+"@vue/compiler-core@npm:3.5.24, @vue/compiler-core@npm:^3.5.24":
   version: 3.5.24
   resolution: "@vue/compiler-core@npm:3.5.24"
   dependencies:
@@ -3732,6 +3732,31 @@ __metadata:
     magicast:
       optional: true
   checksum: 10c0/37b70f838980eba3836ec9754b2c28e28d4eda272baefb1e22ff997ee7569a5f2a50acd41d65ea645969cbd66e5a8334f8634b2c264a8abd0af3caeee75e6351
+  languageName: node
+  linkType: hard
+
+"c12@npm:^3.3.2":
+  version: 3.3.2
+  resolution: "c12@npm:3.3.2"
+  dependencies:
+    chokidar: "npm:^4.0.3"
+    confbox: "npm:^0.2.2"
+    defu: "npm:^6.1.4"
+    dotenv: "npm:^17.2.3"
+    exsolve: "npm:^1.0.8"
+    giget: "npm:^2.0.0"
+    jiti: "npm:^2.6.1"
+    ohash: "npm:^2.0.11"
+    pathe: "npm:^2.0.3"
+    perfect-debounce: "npm:^2.0.0"
+    pkg-types: "npm:^2.3.0"
+    rc9: "npm:^2.1.2"
+  peerDependencies:
+    magicast: "*"
+  peerDependenciesMeta:
+    magicast:
+      optional: true
+  checksum: 10c0/5d8df4509e2dcb26d880d99b5c01b66b2b8690b3bdb06f64d6bcac6802ffcc96b6ee0b3a604f0e471b1ebe3c147f16536b8c4544b314a4c6c287ca8a06af829c
   languageName: node
   linkType: hard
 
@@ -7090,7 +7115,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimatch@npm:^10.0.3":
+"minimatch@npm:^10.1.1":
   version: 10.1.1
   resolution: "minimatch@npm:10.1.1"
   dependencies:
@@ -7233,10 +7258,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"modern-tar@npm:^0.6.1":
-  version: 0.6.1
-  resolution: "modern-tar@npm:0.6.1"
-  checksum: 10c0/2b9abf37c31d7b5b549816240a4a97e9e8455e3d261deb4d5c251386f27d98d0bfe7eca29b8761277929269cc5d8f4065971ed542ff99d45610f6c380b264b46
+"modern-tar@npm:^0.7.0":
+  version: 0.7.0
+  resolution: "modern-tar@npm:0.7.0"
+  checksum: 10c0/4b5cb1bd79d7ea943181aacfb9eac5ec745bdb801576cf3856b1743cd245e5df3313a0a2ffd863a7371e4b3137800c549b4dfdbca80e0985b74dc2f1e3b2e4d7
   languageName: node
   linkType: hard
 
@@ -7549,22 +7574,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nuxt-component-meta@https://pkg.pr.new/nuxt-component-meta@e3eb2c4":
-  version: 0.14.0
-  resolution: "nuxt-component-meta@https://pkg.pr.new/nuxt-component-meta@e3eb2c4"
+"nuxt-component-meta@npm:0.14.2":
+  version: 0.14.2
+  resolution: "nuxt-component-meta@npm:0.14.2"
   dependencies:
-    "@nuxt/kit": "npm:^4.1.1"
+    "@nuxt/kit": "npm:^4.2.1"
     citty: "npm:^0.1.6"
     json-schema-to-zod: "npm:^2.6.1"
     mlly: "npm:^1.8.0"
     ohash: "npm:^2.0.11"
     scule: "npm:^1.3.0"
-    typescript: "npm:^5.9.2"
+    typescript: "npm:^5.9.3"
     ufo: "npm:^1.6.1"
-    vue-component-meta: "npm:^3.0.6"
+    vue-component-meta: "npm:^3.1.3"
   bin:
     nuxt-component-meta: bin/nuxt-component-meta.mjs
-  checksum: 10c0/62b72f707b189ee5959cd21073fbc2f58396a7de0fcab7bbf9334d9a15ed8ecac32013a425cde2e9fc67303b1795476aa8a3153f5c5655012336ae25763b0353
+  checksum: 10c0/3e92a864fcac73cebf4560b61723633c16707d873a3aa3b75a69c8a7c9cdd42b6a3fd4e48935c65b60d1fc1d508ab4eb93a2dcfb656d6a0b4a11b27f65d4bba7
   languageName: node
   linkType: hard
 
@@ -8910,7 +8935,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"remark-mdc@npm:^3.7.0, remark-mdc@npm:^3.8.1":
+"remark-mdc@npm:^3.8.1":
   version: 3.8.1
   resolution: "remark-mdc@npm:3.8.1"
   dependencies:
@@ -9468,7 +9493,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"shiki@npm:^3.14.0":
+"shiki@npm:^3.15.0":
   version: 3.15.0
   resolution: "shiki@npm:3.15.0"
   dependencies:
@@ -10100,7 +10125,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^5.5.4, typescript@npm:^5.9.2":
+"typescript@npm:^5.5.4, typescript@npm:^5.9.3":
   version: 5.9.3
   resolution: "typescript@npm:5.9.3"
   bin:
@@ -10110,7 +10135,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A^5.5.4#optional!builtin<compat/typescript>, typescript@patch:typescript@npm%3A^5.9.2#optional!builtin<compat/typescript>":
+"typescript@patch:typescript@npm%3A^5.5.4#optional!builtin<compat/typescript>, typescript@patch:typescript@npm%3A^5.9.3#optional!builtin<compat/typescript>":
   version: 5.9.3
   resolution: "typescript@patch:typescript@npm%3A5.9.3#optional!builtin<compat/typescript>::version=5.9.3&hash=5786d5"
   bin:
@@ -10541,17 +10566,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unwasm@npm:^0.4.2":
-  version: 0.4.2
-  resolution: "unwasm@npm:0.4.2"
+"unwasm@npm:^0.5.0":
+  version: 0.5.0
+  resolution: "unwasm@npm:0.5.0"
   dependencies:
-    exsolve: "npm:^1.0.7"
+    exsolve: "npm:^1.0.8"
     knitwork: "npm:^1.2.0"
     magic-string: "npm:^0.30.21"
     mlly: "npm:^1.8.0"
     pathe: "npm:^2.0.3"
     pkg-types: "npm:^2.3.0"
-  checksum: 10c0/53f7cc349c4d9066e6be5d42c6e8625d7bc4adb6612ff27d15fcf382f1d5d85974a54bfc81a7c1c4a4bbaf7b32ee972b4e170fcc4981634626ed491cce2d9414
+  checksum: 10c0/a77b425db72da055e734571f3644d030391c5f3533faa97c19ec0e4207ad11cfdab2fbd4fb4d6ea237d9b82dfb77282dc3bb3babb8a898024eb656857504b3a1
   languageName: node
   linkType: hard
 
@@ -10807,7 +10832,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue-component-meta@npm:^3.0.6":
+"vue-component-meta@npm:^3.1.3":
   version: 3.1.3
   resolution: "vue-component-meta@npm:3.1.3"
   dependencies:
