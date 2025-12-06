@@ -17,6 +17,7 @@ export default defineContentConfig({
             schema: z.object({
                 title: z.string(),
                 description: z.string(),
+                url: z.string(),
                 publishedAt: z.date(),
                 modifiedAt: z.date()
             })

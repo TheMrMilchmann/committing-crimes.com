@@ -7,9 +7,11 @@
         <div class="article-list-entry" v-for="article in articles" :key="article.path">
             <span class="monospaced">{{ formatDateString(article.publishedAt) }}</span>
 
-            <CCLink :href="article.path">
+            <CCLink :href="article.url ?? article.path">
                 {{ article.title }}
             </CCLink>
+
+            <NuxtImg v-if="article.url" src="/external.svg" />
         </div>
     </div>
 </template>
