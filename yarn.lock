@@ -449,21 +449,21 @@ __metadata:
   linkType: hard
 
 "@emnapi/core@npm:^1.7.1":
-  version: 1.7.1
-  resolution: "@emnapi/core@npm:1.7.1"
+  version: 1.8.1
+  resolution: "@emnapi/core@npm:1.8.1"
   dependencies:
     "@emnapi/wasi-threads": "npm:1.1.0"
     tslib: "npm:^2.4.0"
-  checksum: 10c0/f3740be23440b439333e3ae3832163f60c96c4e35337f3220ceba88f36ee89a57a871d27c94eb7a9ff98a09911ed9a2089e477ab549f4d30029f8b907f84a351
+  checksum: 10c0/2c242f4b49779bac403e1cbcc98edacdb1c8ad36562408ba9a20663824669e930bc8493be46a2522d9dc946b8d96cd7073970bae914928c7671b5221c85b432e
   languageName: node
   linkType: hard
 
 "@emnapi/runtime@npm:^1.2.0, @emnapi/runtime@npm:^1.7.0, @emnapi/runtime@npm:^1.7.1":
-  version: 1.7.1
-  resolution: "@emnapi/runtime@npm:1.7.1"
+  version: 1.8.1
+  resolution: "@emnapi/runtime@npm:1.8.1"
   dependencies:
     tslib: "npm:^2.4.0"
-  checksum: 10c0/26b851cd3e93877d8732a985a2ebf5152325bbacc6204ef5336a47359dedcc23faeb08cdfcb8bb389b5401b3e894b882bc1a1e55b4b7c1ed1e67c991a760ddd5
+  checksum: 10c0/f4929d75e37aafb24da77d2f58816761fe3f826aad2e37fa6d4421dac9060cbd5098eea1ac3c9ecc4526b89deb58153852fa432f87021dc57863f2ff726d713f
   languageName: node
   linkType: hard
 
@@ -1582,13 +1582,13 @@ __metadata:
   linkType: hard
 
 "@napi-rs/wasm-runtime@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "@napi-rs/wasm-runtime@npm:1.1.0"
+  version: 1.1.1
+  resolution: "@napi-rs/wasm-runtime@npm:1.1.1"
   dependencies:
     "@emnapi/core": "npm:^1.7.1"
     "@emnapi/runtime": "npm:^1.7.1"
     "@tybys/wasm-util": "npm:^0.10.1"
-  checksum: 10c0/ee351052123bfc635c4cef03ac273a686522394ccd513b1e5b7b3823cecd6abb4a31f23a3a962933192b87eb7b7c3eb3def7748bd410edc66f932d90cf44e9ab
+  checksum: 10c0/04d57b67e80736e41fe44674a011878db0a8ad893f4d44abb9d3608debb7c174224cba2796ed5b0c1d367368159f3ca6be45f1c59222f70e32ddc880f803d447
   languageName: node
   linkType: hard
 
@@ -3051,9 +3051,9 @@ __metadata:
   linkType: hard
 
 "@speed-highlight/core@npm:^1.2.7, @speed-highlight/core@npm:^1.2.9":
-  version: 1.2.12
-  resolution: "@speed-highlight/core@npm:1.2.12"
-  checksum: 10c0/37613c7a031af3b239282cc09211cefc1c9e164df07110520d2116ae7b4741512c1905bf1e011706ee2e652cef24df834f2068c4c4fff71e0257ec22fa655ff2
+  version: 1.2.14
+  resolution: "@speed-highlight/core@npm:1.2.14"
+  checksum: 10c0/8391bbfa04e9ea1677119b463f9a1413024a83319d271f5eacbc64dcd6d05394f092b876a5e47612eb98b4b55c1abe6c1b16270462ad4ac0f21311a1736e540f
   languageName: node
   linkType: hard
 
@@ -3312,8 +3312,8 @@ __metadata:
   linkType: hard
 
 "@vue-macros/common@npm:^3.1.1":
-  version: 3.1.1
-  resolution: "@vue-macros/common@npm:3.1.1"
+  version: 3.1.2
+  resolution: "@vue-macros/common@npm:3.1.2"
   dependencies:
     "@vue/compiler-sfc": "npm:^3.5.22"
     ast-kit: "npm:^2.1.2"
@@ -3325,7 +3325,7 @@ __metadata:
   peerDependenciesMeta:
     vue:
       optional: true
-  checksum: 10c0/015fc0faa31a14c75fe28e38f4187dc05aa2f6d6bb5b3a0c19f6ae44b5f126a3814a41002c135c7cab11bed212138e5a08cd6ec699c8e0ad00d6760239608220
+  checksum: 10c0/2ea55f5296239f3d065f73abfedcd657467b4ecf2e81d9cc1d7194c68421b7d24505cfacd52e4732e5431d160b23c44cf937e584373c9ea4442d5f0e67f25fa6
   languageName: node
   linkType: hard
 
@@ -3470,7 +3470,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/language-core@npm:3.2.1, @vue/language-core@npm:^3.1.8":
+"@vue/language-core@npm:3.2.1, @vue/language-core@npm:^3.2.1":
   version: 3.2.1
   resolution: "@vue/language-core@npm:3.2.1"
   dependencies:
@@ -4079,9 +4079,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.0, caniuse-lite@npm:^1.0.30001759, caniuse-lite@npm:^1.0.30001760":
-  version: 1.0.30001761
-  resolution: "caniuse-lite@npm:1.0.30001761"
-  checksum: 10c0/8ea4158ccd507b9c73c03b9b3b1b897e75d095c5753a131d0f36ef9b64c19a049174467842dd9e8bebe886ac27ed7a5b1d5adcaae5fe887716b07fc1103e100b
+  version: 1.0.30001762
+  resolution: "caniuse-lite@npm:1.0.30001762"
+  checksum: 10c0/93707eac5b0240af3f2ce6e2d7ab504a6fefcf9c2f9cd8fb9d488e496a333c61e557dab0472c1b00c17bc386a5dbb792aa4c778cda2d768e17f986617d7aec53
   languageName: node
   linkType: hard
 
@@ -4465,11 +4465,11 @@ __metadata:
   linkType: hard
 
 "css-declaration-sorter@npm:^7.2.0":
-  version: 7.3.0
-  resolution: "css-declaration-sorter@npm:7.3.0"
+  version: 7.3.1
+  resolution: "css-declaration-sorter@npm:7.3.1"
   peerDependencies:
     postcss: ^8.0.9
-  checksum: 10c0/a715c90ac1b849e52cb697eb3c28ae86ee80fa9ccb26a9da60eb5621a0a6657c41a8126e27d96a622f96ca70692e210ac33362888f0274ba23056ac401089fa5
+  checksum: 10c0/8348ec76157e4b370ce4383a80e23fde28dde53901572ae5bcb5cd02cfc2ba0a76a7b5433c361524ed4cea713023802abc7b56e2304aad0721e449011fa83b37
   languageName: node
   linkType: hard
 
@@ -11072,12 +11072,12 @@ __metadata:
   linkType: hard
 
 "unplugin-vue-router@npm:^0.19.0":
-  version: 0.19.1
-  resolution: "unplugin-vue-router@npm:0.19.1"
+  version: 0.19.2
+  resolution: "unplugin-vue-router@npm:0.19.2"
   dependencies:
     "@babel/generator": "npm:^7.28.5"
     "@vue-macros/common": "npm:^3.1.1"
-    "@vue/language-core": "npm:^3.1.8"
+    "@vue/language-core": "npm:^3.2.1"
     ast-walker-scope: "npm:^0.8.3"
     chokidar: "npm:^5.0.0"
     json5: "npm:^2.2.3"
@@ -11098,7 +11098,7 @@ __metadata:
   peerDependenciesMeta:
     vue-router:
       optional: true
-  checksum: 10c0/755996e786756ddc99282825e9acb7f7e219c81abee9765eda26b1ddc83ba4f3d3a7e435b2e9659bed50c5d16f0f57aa3bce59d5c0380e68ba91a44410d87edc
+  checksum: 10c0/cf178d46bca9032f246a4876d1eea93ab2145c523ebf4332858553522d9971a4a9cfb23c2ab56e4722b1d67aa5a19b19da3cdf1fdcc90038b5ac5a6ea367e76e
   languageName: node
   linkType: hard
 
