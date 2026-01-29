@@ -1,15 +1,18 @@
 name: Deploy
+
 on:
   push:
     branches:
       - "master"
   workflow_dispatch:
 
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
 
 env:
   WORKSPACE_ARCHIVE: workspace.tar
   WORKSPACE_ARTIFACT: build-results
-
 
 jobs:
   build:
