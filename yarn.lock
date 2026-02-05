@@ -1316,11 +1316,11 @@ __metadata:
   linkType: hard
 
 "@nuxt/content@npm:^3.0.0":
-  version: 3.11.1
-  resolution: "@nuxt/content@npm:3.11.1"
+  version: 3.11.2
+  resolution: "@nuxt/content@npm:3.11.2"
   dependencies:
     "@nuxt/kit": "npm:^4.2.2"
-    "@nuxtjs/mdc": "npm:^0.20.0"
+    "@nuxtjs/mdc": "npm:^0.20.1"
     "@shikijs/langs": "npm:^3.21.0"
     "@sqlite.org/sqlite-wasm": "npm:3.50.4-build1"
     "@standard-schema/spec": "npm:^1.1.0"
@@ -1387,7 +1387,7 @@ __metadata:
       optional: true
     valibot:
       optional: true
-  checksum: 10c0/86c43d7622a920d7a9237d9d7ec345c868b95f454b98d595c7837bc590877ef1d0e6ff9568464e210aa8d9db37fab120032c76fe216e4361d4bad2f5843f136c
+  checksum: 10c0/8006cbcb53ed8dbbd48d49dfc380ea76dac9972f7bc45e7f913297410432477264e581b71b3c632f5796f04f388f3004dfdd0e6f3be2e484e0436b7950c9ce6a
   languageName: node
   linkType: hard
 
@@ -1697,9 +1697,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxtjs/mdc@npm:^0.20.0":
-  version: 0.20.0
-  resolution: "@nuxtjs/mdc@npm:0.20.0"
+"@nuxtjs/mdc@npm:^0.20.1":
+  version: 0.20.1
+  resolution: "@nuxtjs/mdc@npm:0.20.1"
   dependencies:
     "@nuxt/kit": "npm:^4.2.2"
     "@shikijs/core": "npm:^3.21.0"
@@ -1744,7 +1744,7 @@ __metadata:
     unist-util-visit: "npm:^5.0.0"
     unwasm: "npm:^0.5.3"
     vfile: "npm:^6.0.3"
-  checksum: 10c0/9933bf6cc54c0986264a4d0259d8662f54d0322371ea08e8743def3121274f5753862dc6d113a0caa979a74b2c0bf6f587e97a1801a128867a3ba4108c2e224c
+  checksum: 10c0/804157746f5cf15a353bf11576f1cfff6a38beb7ba0107876e3e1a6213dc9836805f4b5a3d836661a3d9c4618dc597a3f6369d80e116cb7241b86308feedd7d4
   languageName: node
   linkType: hard
 
