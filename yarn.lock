@@ -9539,8 +9539,8 @@ __metadata:
   linkType: hard
 
 "sitemap@npm:^9.0.0":
-  version: 9.0.0
-  resolution: "sitemap@npm:9.0.0"
+  version: 9.0.1
+  resolution: "sitemap@npm:9.0.1"
   dependencies:
     "@types/node": "npm:^24.9.2"
     "@types/sax": "npm:^1.2.1"
@@ -9548,7 +9548,7 @@ __metadata:
     sax: "npm:^1.4.1"
   bin:
     sitemap: dist/esm/cli.js
-  checksum: 10c0/970c51f88185268676aa2e242de0155fa0a3fd915e56987fdbe51f44bf8d5246f2c4b05cf290e57ab5505820e081ce471e1a5a38572944f724ace705c61bf675
+  checksum: 10c0/dddd3c9f30fd09655fa2c1bd9bb182ed860717b3ba681fdc1ac66ad25b5f399dafdd8b87d5ba4ee914ea14e7b11841aadc3af61e4a45242a14f28194efe12416
   languageName: node
   linkType: hard
 
