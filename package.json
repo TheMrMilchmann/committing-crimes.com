@@ -33,6 +33,11 @@
     "date-fns": "^4.0.0",
     "rehype-katex": "^7.0.1"
   },
+  "dependenciesMeta": {
+    "better-sqlite3": {
+      "built": true
+    }
+  },
   "engines": {
     "node": "^24.0.0"
   },

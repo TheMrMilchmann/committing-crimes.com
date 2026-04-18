@@ -4137,6 +4137,9 @@ __metadata:
     typescript: "npm:^6.0.0"
     vue-tsc: "npm:~3.2.0"
     wrangler: "npm:^4.22.0"
+  dependenciesMeta:
+    better-sqlite3:
+      built: true
   languageName: unknown
   linkType: soft
 
