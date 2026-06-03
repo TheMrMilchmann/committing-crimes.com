@@ -19,7 +19,7 @@ export default defineEventHandler(async (event) => {
     for (const article of articles) {
         feed.item({
             title: article.title ?? "-",
-            url: `https://committing-crimes.com${article.path}`,
+            url: article.url ?? `https://committing-crimes.com${article.path}`,
             date: article.publishedAt,
             description: article.description
         });

@@ -9,9 +9,9 @@
 
             <CCLink :href="article.url ?? article.path">
                 {{ article.title }}
-            </CCLink>
 
-            <NuxtImg v-if="article.url" src="/external.svg" />
+                <NuxtImg v-if="article.url" src="/external.svg" width="16px" />
+            </CCLink>
         </div>
     </div>
 </template>
