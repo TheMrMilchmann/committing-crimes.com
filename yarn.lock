@@ -1717,7 +1717,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/kit@npm:4.4.8":
+"@nuxt/kit@npm:4.4.8, @nuxt/kit@npm:^4.4.6":
   version: 4.4.8
   resolution: "@nuxt/kit@npm:4.4.8"
   dependencies:
@@ -1774,7 +1774,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/kit@npm:^4.2.0, @nuxt/kit@npm:^4.2.1, @nuxt/kit@npm:^4.2.2, @nuxt/kit@npm:^4.4.2, @nuxt/kit@npm:^4.4.5":
+"@nuxt/kit@npm:^4.2.0, @nuxt/kit@npm:^4.2.2, @nuxt/kit@npm:^4.4.2, @nuxt/kit@npm:^4.4.5":
   version: 4.4.7
   resolution: "@nuxt/kit@npm:4.4.7"
   dependencies:
@@ -1932,15 +1932,15 @@ __metadata:
   linkType: hard
 
 "@nuxtjs/color-mode@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "@nuxtjs/color-mode@npm:4.0.0"
+  version: 4.0.1
+  resolution: "@nuxtjs/color-mode@npm:4.0.1"
   dependencies:
-    "@nuxt/kit": "npm:^4.2.1"
+    "@nuxt/kit": "npm:^4.4.6"
     exsolve: "npm:^1.0.8"
     pathe: "npm:^2.0.3"
-    pkg-types: "npm:^2.3.0"
-    semver: "npm:^7.7.3"
-  checksum: 10c0/50fb52aad8353bdfb2e8a26769390a2463b1869c167ccc2295b98b8f66e1a517cc239ec1145f952d8a6f0e900678f09c1c89ac881e06cb214571681aad8898bf
+    pkg-types: "npm:^2.3.1"
+    semver: "npm:^7.8.1"
+  checksum: 10c0/b1d7df6b8309085119d6e545e43e236150285fc5506bccd901ed6b83af581218239d22b40a1859cbe59a9b37e15693b909dbf28365d54a9230b2554465616c61
   languageName: node
   linkType: hard
 
