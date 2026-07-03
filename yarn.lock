@@ -1181,12 +1181,12 @@ __metadata:
   linkType: hard
 
 "@nuxt/content@npm:^3.0.0":
-  version: 3.14.0
-  resolution: "@nuxt/content@npm:3.14.0"
+  version: 3.15.0
+  resolution: "@nuxt/content@npm:3.15.0"
   dependencies:
-    "@nuxt/kit": "npm:^4.4.5"
-    "@nuxtjs/mdc": "npm:^0.22.0"
-    "@shikijs/langs": "npm:^4.0.2"
+    "@nuxt/kit": "npm:^4.4.8"
+    "@nuxtjs/mdc": "npm:^0.22.1"
+    "@shikijs/langs": "npm:^4.3.0"
     "@sqlite.org/sqlite-wasm": "npm:3.50.4-build1"
     "@standard-schema/spec": "npm:^1.1.0"
     "@webcontainer/env": "npm:^1.1.1"
@@ -1197,8 +1197,9 @@ __metadata:
     defu: "npm:^6.1.7"
     destr: "npm:^2.0.5"
     git-url-parse: "npm:^16.1.0"
+    h3: "npm:^1.15.11"
     hookable: "npm:^5.5.3"
-    isomorphic-git: "npm:^1.38.1"
+    isomorphic-git: "npm:^1.38.5"
     jiti: "npm:^2.7.0"
     json-schema-to-typescript-lite: "npm:^15.0.0"
     mdast-util-to-hast: "npm:^13.2.1"
@@ -1212,23 +1213,23 @@ __metadata:
     minimark: "npm:^0.2.0"
     minimatch: "npm:^10.2.5"
     nuxt-component-meta: "npm:0.17.2"
-    nypm: "npm:^0.6.6"
+    nypm: "npm:^0.6.8"
     ohash: "npm:^2.0.11"
     pathe: "npm:^2.0.3"
     pkg-types: "npm:^2.3.1"
     remark-mdc: "npm:^3.11.0"
     scule: "npm:^1.3.0"
-    shiki: "npm:^4.0.2"
+    shiki: "npm:^4.3.0"
     slugify: "npm:^1.6.9"
     socket.io-client: "npm:^4.8.3"
     std-env: "npm:^4.1.0"
-    tinyglobby: "npm:^0.2.16"
+    tinyglobby: "npm:^0.2.17"
     ufo: "npm:^1.6.4"
     unctx: "npm:^2.5.0"
     unified: "npm:^11.0.5"
     unist-util-stringify-position: "npm:^4.0.0"
     unist-util-visit: "npm:^5.1.0"
-    unplugin: "npm:^3.0.0"
+    unplugin: "npm:^3.3.0"
     zod: "npm:^3.25.76"
     zod-to-json-schema: "npm:^3.25.2"
   peerDependencies:
@@ -1251,7 +1252,7 @@ __metadata:
       optional: true
     valibot:
       optional: true
-  checksum: 10c0/ffc4c406c49e716503f0c8dd074e25f8d7cec1708a99497d57015904da214c5b95f1fc251af4d78065603c06e6e68a102d0898c80edbce4d90d306a3e65c4a0b
+  checksum: 10c0/fbdcbbbf21fbc3a3cfa9bc7c9154524bafb658d363ed7c8e011c29064fc68586a4273691f52a4b28cbfc06cc5802c3e95e2bd9fb22f5a59af8c447a1a70ed151
   languageName: node
   linkType: hard
 
@@ -1362,7 +1363,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/kit@npm:4.4.8, @nuxt/kit@npm:^4.2.0, @nuxt/kit@npm:^4.2.2, @nuxt/kit@npm:^4.4.2, @nuxt/kit@npm:^4.4.5, @nuxt/kit@npm:^4.4.6":
+"@nuxt/kit@npm:4.4.8, @nuxt/kit@npm:^4.2.0, @nuxt/kit@npm:^4.2.2, @nuxt/kit@npm:^4.4.2, @nuxt/kit@npm:^4.4.6, @nuxt/kit@npm:^4.4.8":
   version: 4.4.8
   resolution: "@nuxt/kit@npm:4.4.8"
   dependencies:
@@ -1574,19 +1575,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxtjs/mdc@npm:^0.22.0":
-  version: 0.22.0
-  resolution: "@nuxtjs/mdc@npm:0.22.0"
+"@nuxtjs/mdc@npm:^0.22.1":
+  version: 0.22.1
+  resolution: "@nuxtjs/mdc@npm:0.22.1"
   dependencies:
-    "@nuxt/kit": "npm:^4.4.5"
-    "@shikijs/core": "npm:^4.0.2"
-    "@shikijs/engine-javascript": "npm:^4.0.2"
-    "@shikijs/langs": "npm:^4.0.2"
-    "@shikijs/themes": "npm:^4.0.2"
-    "@shikijs/transformers": "npm:^4.0.2"
+    "@nuxt/kit": "npm:^4.4.8"
+    "@shikijs/core": "npm:^4.3.0"
+    "@shikijs/engine-javascript": "npm:^4.3.0"
+    "@shikijs/langs": "npm:^4.3.0"
+    "@shikijs/themes": "npm:^4.3.0"
+    "@shikijs/transformers": "npm:^4.3.0"
     "@types/hast": "npm:^3.0.4"
     "@types/mdast": "npm:^4.0.4"
-    "@vue/compiler-core": "npm:^3.5.34"
+    "@vue/compiler-core": "npm:^3.5.39"
     consola: "npm:^3.4.2"
     debug: "npm:^4.4.3"
     defu: "npm:^6.1.7"
@@ -1600,7 +1601,7 @@ __metadata:
     micromark-util-sanitize-uri: "npm:^2.0.1"
     parse5: "npm:^8.0.1"
     pathe: "npm:^2.0.3"
-    property-information: "npm:^7.1.0"
+    property-information: "npm:^7.2.0"
     rehype-external-links: "npm:^3.0.0"
     rehype-minify-whitespace: "npm:^6.0.2"
     rehype-raw: "npm:^7.0.0"
@@ -1610,19 +1611,19 @@ __metadata:
     rehype-sort-attributes: "npm:^5.0.1"
     remark-emoji: "npm:^5.0.2"
     remark-gfm: "npm:^4.0.1"
-    remark-mdc: "npm:^3.11.0"
+    remark-mdc: "npm:^3.11.1"
     remark-parse: "npm:^11.0.0"
     remark-rehype: "npm:^11.1.2"
     remark-stringify: "npm:^11.0.0"
     scule: "npm:^1.3.0"
-    shiki: "npm:^4.0.2"
+    shiki: "npm:^4.3.0"
     ufo: "npm:^1.6.4"
     unified: "npm:^11.0.5"
     unist-builder: "npm:^4.0.0"
     unist-util-visit: "npm:^5.1.0"
     unwasm: "npm:^0.5.3"
     vfile: "npm:^6.0.3"
-  checksum: 10c0/a9815138229488a0db4268c246480435ffe7cd8330710784868423599171e069e84586c472ddad3d96784f405b759da8973c9a9d619897c94ce4976eea6119bc
+  checksum: 10c0/fb35e320b0d4640b1160c6ab493773b758776585031fa4814f3950482cdf2d1073d4b98f56dae496ca3f89962e14fcf1842f50ad7727dce9e3300c42ff39aca0
   languageName: node
   linkType: hard
 
@@ -2592,7 +2593,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@shikijs/core@npm:4.3.0, @shikijs/core@npm:^4.0.2":
+"@shikijs/core@npm:4.3.0, @shikijs/core@npm:^4.3.0":
   version: 4.3.0
   resolution: "@shikijs/core@npm:4.3.0"
   dependencies:
@@ -2605,7 +2606,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@shikijs/engine-javascript@npm:4.3.0, @shikijs/engine-javascript@npm:^4.0.2":
+"@shikijs/engine-javascript@npm:4.3.0, @shikijs/engine-javascript@npm:^4.3.0":
   version: 4.3.0
   resolution: "@shikijs/engine-javascript@npm:4.3.0"
   dependencies:
@@ -2626,7 +2627,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@shikijs/langs@npm:4.3.0, @shikijs/langs@npm:^4.0.2":
+"@shikijs/langs@npm:4.3.0, @shikijs/langs@npm:^4.3.0":
   version: 4.3.0
   resolution: "@shikijs/langs@npm:4.3.0"
   dependencies:
@@ -2646,7 +2647,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@shikijs/themes@npm:4.3.0, @shikijs/themes@npm:^4.0.2":
+"@shikijs/themes@npm:4.3.0, @shikijs/themes@npm:^4.3.0":
   version: 4.3.0
   resolution: "@shikijs/themes@npm:4.3.0"
   dependencies:
@@ -2655,7 +2656,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@shikijs/transformers@npm:^4.0.2":
+"@shikijs/transformers@npm:^4.3.0":
   version: 4.3.0
   resolution: "@shikijs/transformers@npm:4.3.0"
   dependencies:
@@ -3049,7 +3050,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/compiler-core@npm:3.5.39, @vue/compiler-core@npm:^3.5.34":
+"@vue/compiler-core@npm:3.5.39, @vue/compiler-core@npm:^3.5.39":
   version: 3.5.39
   resolution: "@vue/compiler-core@npm:3.5.39"
   dependencies:
@@ -6096,9 +6097,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"isomorphic-git@npm:^1.38.1":
-  version: 1.38.5
-  resolution: "isomorphic-git@npm:1.38.5"
+"isomorphic-git@npm:^1.38.5":
+  version: 1.38.6
+  resolution: "isomorphic-git@npm:1.38.6"
   dependencies:
     async-lock: "npm:^1.4.1"
     clean-git-ref: "npm:^2.0.1"
@@ -6113,7 +6114,7 @@ __metadata:
     simple-get: "npm:^4.0.1"
   bin:
     isogit: cli.cjs
-  checksum: 10c0/a6c597fcffe35086f053f71625c4e42ba2e6de845c8646fe066408deaedc964e2130a88df8492911585dfc3493e49614b14e2bceffb8e7a3b452098f70222066
+  checksum: 10c0/1ddc344bcf135ecf642672b17a18baaeac28a6d5fd51a758bccd6b97b36794ef7ae7fffeaeab4de36cac90ac4ad73c66ccbbcb31c2950aae2c5a9967f01a8584
   languageName: node
   linkType: hard
 
@@ -7532,6 +7533,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"nypm@npm:^0.6.8":
+  version: 0.6.8
+  resolution: "nypm@npm:0.6.8"
+  dependencies:
+    citty: "npm:^0.2.2"
+    pathe: "npm:^2.0.3"
+    tinyexec: "npm:^1.2.4"
+  bin:
+    nypm: ./dist/cli.mjs
+  checksum: 10c0/2aed08d6a125c5559889ccdf67f4b4a6247aa751b6b554d2b2e92c992997127bc87bb535b7782ff328ab3275b6c5daad012e1e212de8f6d08a0e99bcb53646e6
+  languageName: node
+  linkType: hard
+
 "obug@npm:^2.1.1":
   version: 2.1.3
   resolution: "obug@npm:2.1.3"
@@ -8497,7 +8511,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"property-information@npm:^7.0.0, property-information@npm:^7.1.0":
+"property-information@npm:^7.0.0, property-information@npm:^7.2.0":
   version: 7.2.0
   resolution: "property-information@npm:7.2.0"
   checksum: 10c0/03662c8f9e1544510914c5e594ae72963f67d261027a5fdc06c4134742584fe40dd49b959470d30e757e9fb70b297d8546ab1362a040364144029926ad4e07c4
@@ -8837,6 +8851,32 @@ __metadata:
     unist-util-visit-parents: "npm:^6.0.2"
     yaml: "npm:^2.9.0"
   checksum: 10c0/7cac6d3ea562f7539ac11e00cd0038841a34d1afde487d2faac987981503f1a1161be93983f0f094771d44f078dcb3010e2793ffa2ca25175e9d4b09ed055bfe
+  languageName: node
+  linkType: hard
+
+"remark-mdc@npm:^3.11.1":
+  version: 3.11.1
+  resolution: "remark-mdc@npm:3.11.1"
+  dependencies:
+    "@types/mdast": "npm:^4.0.4"
+    "@types/unist": "npm:^3.0.3"
+    flat: "npm:^6.0.1"
+    mdast-util-from-markdown: "npm:^2.0.3"
+    mdast-util-to-markdown: "npm:^2.1.2"
+    micromark: "npm:^4.0.2"
+    micromark-core-commonmark: "npm:^2.0.3"
+    micromark-factory-space: "npm:^2.0.1"
+    micromark-factory-whitespace: "npm:^2.0.1"
+    micromark-util-character: "npm:^2.1.1"
+    micromark-util-types: "npm:^2.0.2"
+    parse-entities: "npm:^4.0.2"
+    scule: "npm:^1.3.0"
+    stringify-entities: "npm:^4.0.4"
+    unified: "npm:^11.0.5"
+    unist-util-visit: "npm:^5.1.0"
+    unist-util-visit-parents: "npm:^6.0.2"
+    yaml: "npm:^2.9.0"
+  checksum: 10c0/06c95f5eb196d89cb351d8b201aeadb371e6272228f870d945cb79de8c380d4dbfaa672309df2cd2a584afc7ef8887eb71dde3f63cd845243b54c72ef3cf348d
   languageName: node
   linkType: hard
 
@@ -9325,7 +9365,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"shiki@npm:^4.0.2":
+"shiki@npm:^4.3.0":
   version: 4.3.0
   resolution: "shiki@npm:4.3.0"
   dependencies:
@@ -10291,6 +10331,46 @@ __metadata:
     webpack:
       optional: true
   checksum: 10c0/7a9dcf272e3ff08a20906df43700ac2f8b85e8008e36c713c2375cd08d0b4e75ad3d96eb1dfa3ee49fa558b5c8c7c74531154e21900344446016b1d84fceec1a
+  languageName: node
+  linkType: hard
+
+"unplugin@npm:^3.3.0":
+  version: 3.3.0
+  resolution: "unplugin@npm:3.3.0"
+  dependencies:
+    "@jridgewell/remapping": "npm:^2.3.5"
+    picomatch: "npm:^4.0.4"
+    webpack-virtual-modules: "npm:^0.6.2"
+  peerDependencies:
+    "@farmfe/core": "*"
+    "@rspack/core": "*"
+    bun-types-no-globals: "*"
+    esbuild: "*"
+    rolldown: "*"
+    rollup: "*"
+    unloader: "*"
+    vite: "*"
+    webpack: "*"
+  peerDependenciesMeta:
+    "@farmfe/core":
+      optional: true
+    "@rspack/core":
+      optional: true
+    bun-types-no-globals:
+      optional: true
+    esbuild:
+      optional: true
+    rolldown:
+      optional: true
+    rollup:
+      optional: true
+    unloader:
+      optional: true
+    vite:
+      optional: true
+    webpack:
+      optional: true
+  checksum: 10c0/86ee7c7fde40ffa8260ddeba5da51800e35c6cdd41ee8a556ec3827357b5d2ee13dcbe4ea6820451bc6c2b05b35165f96c7bf20662114af5ed52183a74886404
   languageName: node
   linkType: hard
 
