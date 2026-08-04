@@ -3,7 +3,7 @@
   - All rights reserved.
   -->
 <template>
-    <div>
+    <div class="article-list-container">
         <div class="article-list-entry" v-for="article in articles" :key="article.path">
             <span class="monospaced">{{ formatDateString(article.publishedAt) }}</span>
 
@@ -49,6 +49,12 @@ function formatDateString(date: Date): string {
 </script>
 
 <style scoped>
+.article-list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
 .article-list-entry {
     display: flex;
     gap: 8px;
