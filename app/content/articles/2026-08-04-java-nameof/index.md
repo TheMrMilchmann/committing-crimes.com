@@ -37,8 +37,8 @@ works. So, let's hack in a `nameOf`!
 
 First of all, it is important to understand how the JVM works. When the Java compiler compiles Java source code, it
 emits Java bytecode. The bytecode usually contains quite a bit of debug information that can be used to match bytecode
-instructions to their sources; This is why debugging Java works nicely in your IDEs. Another useful bit of information
-that is usually stored in bytecode are names of local variables and — when compiling with `-parameters` — parameters.
+instructions to their sources, which is why debugging Java works nicely in your IDEs. Another useful bit of information
+that is usually stored in bytecode is names of local variables and — when compiling with `-parameters` — parameters.
 
 The JVM is a stack machine that essentially reads instructions from the bytecode representation of a class. It executes
 said instructions by pushing arguments onto the operand stack, popping them off to perform operations, and pushing
@@ -64,7 +64,7 @@ int currentBci = callerFrame.getByteCodeIndex();
 if (currentBci < 0) throw new IllegalArgumentException("Cannot determine bytecode index of caller. Ensure the JVM is not configured to strip bytecode indices.");
 ```
 
-Using this information, we can search the classpath for the bytecode of the calling class and parse it into a
+Using this information, we can locate the declaring `.class` resource of the calling class and parse it into a
 `ClassModel`:
 
 ```java
@@ -89,8 +89,8 @@ Rather than storing actual runtime values, our simulated operand stack stores sy
 field names). As instructions execute, these symbolic values are propagated through the simulated stack until we reach
 the `nameOf` call.
 
-Once we reach the desired index (which will always be a method invocation), recover the symbolic name of the argument
-from our simulated stack.
+Once we reach the desired instruction (which will always be a method invocation), we can recover the symbolic name of
+the argument from our simulated stack.
 
 ```java
 int byteCodeOffset = 0;
@@ -158,7 +158,7 @@ for (CodeElement element : codeModel.elementList()) {
 
 ## The Result
 
-After putting everything together, we end up with a `nameOf` method allows us to remove a bit of duplication at the
+After putting everything together, we end up with a `nameOf` method that allows us to remove a bit of duplication at the
 _small_ cost of an extremely unstable and potentially forward-incompatible implementation!
 
 ```java
