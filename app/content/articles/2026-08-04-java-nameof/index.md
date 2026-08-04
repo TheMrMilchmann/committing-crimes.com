@@ -37,8 +37,8 @@ works. So, let's hack in a `nameOf`!
 
 First of all, it is important to understand how the JVM works. When the Java compiler compiles Java source code, it
 emits Java bytecode. The bytecode usually contains quite a bit of debug information that can be used to match bytecode
-instructions to their sources - This is why debugging Java works nicely in your IDEs. Another useful bit of information
-that is usually stored in bytecode are names of local variables and - when compiling with `-parameters` - parameters.
+instructions to their sources; This is why debugging Java works nicely in your IDEs. Another useful bit of information
+that is usually stored in bytecode are names of local variables and — when compiling with `-parameters` — parameters.
 
 The JVM is a stack machine that essentially reads instructions from the bytecode representation of a class. It executes
 said instructions by pushing arguments onto the operand stack, popping them off to perform operations, and pushing
