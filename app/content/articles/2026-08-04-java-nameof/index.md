@@ -1,5 +1,5 @@
 ---
-title: "Hacking in the `nameOf`"
+title: "Hacking in the 'nameOf'"
 description: "A short demonstration of how to implement a 'nameOf' expression in Java using bytecode introspection."
 tags: [article, bytecode, java, jvm, nameof]
 publishedAt: 2026-08-04
