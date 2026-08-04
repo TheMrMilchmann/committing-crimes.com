@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023-2025 Leon Linhart
+ * Copyright (c) 2023-2026 Leon Linhart
  * All rights reserved.
  */
 import { defineCollection, defineContentConfig, z } from "@nuxt/content";
