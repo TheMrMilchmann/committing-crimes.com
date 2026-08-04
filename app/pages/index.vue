@@ -52,7 +52,7 @@ function formatDateString(date: Date): string {
 .article-list-container {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 6px;
 }
 
 .article-list-entry {
