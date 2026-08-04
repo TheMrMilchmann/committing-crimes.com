@@ -50,7 +50,7 @@ results back onto the stack for subsequent instructions.
 To actually implement a `nameOf` method in Java, we will use two key APIs: The [StackWalker API](https://docs.oracle.com/en/java/javase/26/docs/api/java.base/java/lang/StackWalker.html)
 and the relatively recent [ClassFile API](https://docs.oracle.com/en/java/javase/26/docs/api/java.base/java/lang/classfile/ClassFile.html).
 We can use the former to determine the frame from which our `nameOf` method was called. This frame contains multiple
-important bits of information: The calling class, the calling method's name and signature, and even the bytecode index
+important bits of information: The calling class, the calling method's name and descriptor, and even the bytecode index
 within the calling method.
 
 ```java
@@ -64,8 +64,7 @@ int currentBci = callerFrame.getByteCodeIndex();
 if (currentBci < 0) throw new IllegalArgumentException("Cannot determine bytecode index of caller. Ensure the JVM is not configured to strip bytecode indices.");
 ```
 
-Using this information, we can locate the declaring `.class` resource of the calling class and parse it into a
-`ClassModel`:
+Using this information, we can locate the `.class` resource for the calling class and parse it into a `ClassModel`:
 
 ```java
 String classResourceName = callerClass.getName().replace('.', '/') + ".class";
@@ -81,9 +80,9 @@ ClassModel callerClassModel = ClassFile.of().parse(classBytes);
 ```
 
 And this is where the fun begins! While it is fairly straightforward to find the correct method by comparing name and
-signature, we still need to find what happens at the bytecode index inside the method. To achieve this, we essentially
-have to play stack machine ourselves. We can iterate over the instructions that make up the body of the calling method
-and simulate the operand stack.
+descriptor, we still need to find what happens at the bytecode index inside the method. To achieve this, we essentially
+have to implement a stack machine ourselves. We can iterate over the instructions that make up the body of the calling
+method and simulate the operand stack.
 
 Rather than storing actual runtime values, our simulated operand stack stores symbolic names (such as local variable or
 field names). As instructions execute, these symbolic values are propagated through the simulated stack until we reach
