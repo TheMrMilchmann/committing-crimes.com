@@ -20,7 +20,7 @@ public static MyObject create(String name) {
 
 However, there is one crucial duplication here: The parameter name is hardcoded into the exception message. To avoid
 this duplication (and for a few more niche use cases), some programming languages (e.g., C#) implement a `nameof`
-expression (or similar) which allows retrieving the textual name of an identifier as string. This prevents incomplete
+expression (or similar) which allows retrieving the textual name of an identifier as a string. This prevents incomplete
 refactorings from silently introducing inconsistencies.
 
 Java does not have such a construct...
@@ -35,10 +35,10 @@ works. So, let's hack in a `nameOf`!
 
 ## Rage against the Java Virtual Machine
 
-First of all, it is important to understand how the JVM works. When the Java compiler compiles Java source code, it
-emits Java bytecode. The bytecode usually contains quite a bit of debug information that can be used to match bytecode
+First, it is essential to understand how the JVM operates. When the Java compiler compiles Java source code, it emits
+Java bytecode. The bytecode usually contains quite a bit of debug information that can be used to match bytecode
 instructions to their sources, which is why debugging Java works nicely in your IDEs. Another useful bit of information
-that is usually stored in bytecode is names of local variables and — when compiling with `-parameters` — parameters.
+that is usually stored in bytecode is the names of local variables and — when compiling with `-parameters` — parameters.
 
 The JVM is a stack machine that essentially reads instructions from the bytecode representation of a class. It executes
 said instructions by pushing arguments onto the operand stack, popping them off to perform operations, and pushing
@@ -84,7 +84,7 @@ descriptor, we still need to find what happens at the bytecode index inside the 
 have to implement a stack machine ourselves. We can iterate over the instructions that make up the body of the calling
 method and simulate the operand stack.
 
-Rather than storing actual runtime values, our simulated operand stack stores symbolic names (such as local variable or
+Rather than storing actual runtime values, our simulated operand stack stores symbolic names (such as local variables or
 field names). As instructions execute, these symbolic values are propagated through the simulated stack until we reach
 the `nameOf` call.
 
@@ -176,10 +176,10 @@ java.lang.IllegalArgumentException: name must not be blank
 
 **No!**
 
-Not convinced yet? While the code seems to work fine, it is mostly untested. Even if it was tested, it would be prone to
-break. Every new opcode that affects the operand stack could subtly break this implementation in unpredictable ways.
-Possible failures range from exceptions to wrong results. This implementation will not work reliably across JVM
-configurations and compiler implementations as these could strip optional debug symbols that this implementation relies
+Not convinced yet? While the code seems to work fine, it is mostly untested. Even if it were tested, it would be prone
+to breaking. Every new opcode that affects the operand stack could subtly break this implementation in unpredictable
+ways. Possible failures range from exceptions to wrong results. This implementation will not work reliably across JVM
+configurations and compiler implementations, as these could strip optional debug symbols that this implementation relies
 on. In short, **don't use this.**
 
 [The full source code can be found here](https://github.com/CommittingCrimes/2026-08-04-java-nameof).
