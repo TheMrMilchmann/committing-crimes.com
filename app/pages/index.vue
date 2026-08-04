@@ -27,20 +27,20 @@ useHead({
 
 const description = "Tips, tricks, and quirks about programming and software development by Leon 'TheMrMilchmann' Linhart.";
 
-useServerSeoMeta({
-    description: description,
+useSeoMeta({
+  description: description,
 
-    ogDescription: description,
-    ogTitle: "Committing Crimes",
-    ogType: "website",
-    ogSiteName: "Committing Crimes",
-    ogImage: "https://committing-crimes.com/me.jpg",
-    ogUrl: "https://comitting-crimes.com",
+  ogDescription: description,
+  ogTitle: "Committing Crimes",
+  ogType: "website",
+  ogSiteName: "Committing Crimes",
+  ogImage: "https://committing-crimes.com/me.jpg",
+  ogUrl: "https://comitting-crimes.com",
 
-    twitterCard: "summary",
-    twitterDescription: description,
-    twitterTitle: "Committing Crimes",
-    twitterImage: "https://committing-crimes.com/me.jpg"
+  twitterCard: "summary",
+  twitterDescription: description,
+  twitterTitle: "Committing Crimes",
+  twitterImage: "https://committing-crimes.com/me.jpg"
 });
 
 function formatDateString(date: Date): string {

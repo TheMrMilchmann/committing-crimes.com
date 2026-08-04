@@ -71,7 +71,7 @@ useHead({
     ]
 });
 
-useServerSeoMeta({
+useSeoMeta({
     ogTitle: "About Leon Linhart",
     ogDescription: `I'm Leon Linhart, a ${age.value}-year-old software developer from Germany.`,
     ogType: "article",

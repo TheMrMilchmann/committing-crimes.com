@@ -29,8 +29,6 @@ if (!page.value) {
     });
 }
 
-useSeoMeta(page.value.seo);
-
 useJsonld({
     "@context": "https://schema.org",
     "@type": "BlogPosting",
@@ -46,12 +44,13 @@ useJsonld({
     }
 });
 
-useServerSeoMeta({
+useSeoMeta({
+    ...page.value.seo,
     ogType: "article",
     ogImage: "https://committing-crimes.com/me.jpg" // TODO wire up article specific images
 });
 
-useServerHead({
+useHead({
     meta: [
         // { property: "og:article:published_time", content: page.value["publishedAt"] },
         // { property: "og:article:modified_time", content: page.value["modifiedAt"] ?? page.value["publishedAt"] },
