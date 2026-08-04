@@ -44,6 +44,7 @@ The JVM is a stack machine that essentially reads instructions from the bytecode
 said instructions by pushing arguments onto the operand stack, popping them off to perform operations, and pushing
 results back onto the stack for subsequent instructions.
 
+
 ## Implementing `nameOf`
 
 To actually implement a `nameOf` method in Java, we will use two key APIs: The [StackWalker API](https://docs.oracle.com/en/java/javase/26/docs/api/java.base/java/lang/StackWalker.html)
