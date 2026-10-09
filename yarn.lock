@@ -1756,7 +1756,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/kit@npm:4.6.0":
+"@nuxt/kit@npm:4.6.0, @nuxt/kit@npm:^4.0.0":
   version: 4.6.0
   resolution: "@nuxt/kit@npm:4.6.0"
   dependencies:
@@ -4140,7 +4140,7 @@ __metadata:
     better-sqlite3: "npm:^13.0.0"
     date-fns: "npm:^4.0.0"
     nuxt: "npm:^4.0.1"
-    nuxt-jsonld: "npm:^2.0.8"
+    nuxt-jsonld: "npm:^3.0.0"
     rehype-katex: "npm:^7.0.1"
     remark-math: "npm:^6.0.0"
     rollup: "npm:^4.24.4"
@@ -7810,13 +7810,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nuxt-jsonld@npm:^2.0.8":
-  version: 2.3.1
-  resolution: "nuxt-jsonld@npm:2.3.1"
+"nuxt-jsonld@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "nuxt-jsonld@npm:3.0.0"
   dependencies:
-    "@nuxt/kit": "npm:^4.5.2"
-    schema-dts: "npm:^2.0.0"
-  checksum: 10c0/dfac776c2234e9948e4ccc33b2221b1168528c7414066b9b647f6cb1c37a81561793c0d89d20060179e08a332f94d5b0b4da50241ae4cb842266961d2fc8688a
+    "@nuxt/kit": "npm:^4.0.0"
+    schema-dts: "npm:^2.1.0"
+  checksum: 10c0/e16d4665f123b3ac938de1255c9b177ca43991812d7d7443aa0240dcfd83f2f0377e22eb754409db9df9662e440f886eaa7ee929a1a9ce56539d2fd58fe6d6dd
   languageName: node
   linkType: hard
 
@@ -9386,7 +9386,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"schema-dts@npm:^2.0.0":
+"schema-dts@npm:^2.1.0":
   version: 2.1.0
   resolution: "schema-dts@npm:2.1.0"
   dependencies:
