@@ -19,7 +19,7 @@
     "@types/node": "^24.0.0",
     "@types/rss": "^0.0.32",
     "nuxt": "^4.0.1",
-    "nuxt-jsonld": "^2.0.8",
+    "nuxt-jsonld": "^3.0.0",
     "remark-math": "^6.0.0",
     "rollup": "^4.24.4",
     "rss": "^1.2.2",
