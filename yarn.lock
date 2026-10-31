@@ -1334,15 +1334,15 @@ __metadata:
   linkType: hard
 
 "@nuxt/image@npm:^2.0.0":
-  version: 2.2.0
-  resolution: "@nuxt/image@npm:2.2.0"
+  version: 2.2.1
+  resolution: "@nuxt/image@npm:2.2.1"
   dependencies:
     "@noble/hashes": "npm:^2.4.0"
-    "@nuxt/kit": "npm:^4.6.1"
+    "@nuxt/kit": "npm:^4.6.3"
     defu: "npm:^6.1.7"
     h3: "npm:^1.15.11"
     image-meta: "npm:^0.3.0"
-    ipx: "npm:^4.0.0"
+    ipx: "npm:^4.1.0"
     knitwork: "npm:^1.3.0"
     ohash: "npm:^2.0.12"
     pathe: "npm:^2.0.3"
@@ -1351,11 +1351,11 @@ __metadata:
   dependenciesMeta:
     ipx:
       optional: true
-  checksum: 10c0/151ba56616a44d5b41f50fa52f5ceec5f55478dd56be4b1d1ea0382f043c580606420026aa9fcdc2369d18b6b9b1000b7587d7ed78114f09646769f9605f4768
+  checksum: 10c0/e3bbbbec7018ca592bcdd819a6c44dae74515156bd77ffc74e2d13859dbefc519f8ae8db1527fa84016649fb50d11c4be0ba904148e728ccd06d805326de7074
   languageName: node
   linkType: hard
 
-"@nuxt/kit@npm:4.6.3, @nuxt/kit@npm:^4.6.2":
+"@nuxt/kit@npm:4.6.3, @nuxt/kit@npm:^4.6.2, @nuxt/kit@npm:^4.6.3":
   version: 4.6.3
   resolution: "@nuxt/kit@npm:4.6.3"
   dependencies:
@@ -5420,12 +5420,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ipx@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "ipx@npm:4.0.0"
+"ipx@npm:^4.1.0":
+  version: 4.1.0
+  resolution: "ipx@npm:4.1.0"
   dependencies:
     sharp: "npm:^0.35.5"
-    srvx: "npm:^1.0.5"
+    srvx: "npm:^1.0.8"
   peerDependencies:
     unstorage: "*"
   peerDependenciesMeta:
@@ -5433,7 +5433,7 @@ __metadata:
       optional: true
   bin:
     ipx: ./dist/cli.mjs
-  checksum: 10c0/52079bd128edf745aff28123278e6017f5214a891ade601fd102157f3dc90f335e7f323df5478c82840550fd7320d9321b3a01b82c82558b69d51e0f9b624810
+  checksum: 10c0/feba28dcba44154b3a379482476d545b40f3c1c6c8eeaab3dfda3e5145438fee14cda97735dcef1cc6489aaa192180d1fcfa65571be7721ba30c1fdeee9235f6
   languageName: node
   linkType: hard
 
@@ -8835,6 +8835,15 @@ __metadata:
   bin:
     srvx: ./bin/srvx.mjs
   checksum: 10c0/65a6923c251ef132c82a64689cbe9aaebc00a7900a773694eea24f69d8d9c48a26fdb91990b73a7ad0ba2c994b343dba45cfc74837634b4359876942ff763686
+  languageName: node
+  linkType: hard
+
+"srvx@npm:^1.0.8":
+  version: 1.0.8
+  resolution: "srvx@npm:1.0.8"
+  bin:
+    srvx: ./bin/srvx.mjs
+  checksum: 10c0/7c2a9a3b9e76549787c973453d93675365161ce2512899950a5ccce77d3019455110e0ebe5731a41ed97606467c0bedd0467a9ef5474f04834e5f118cffd81bc
   languageName: node
   linkType: hard
 
